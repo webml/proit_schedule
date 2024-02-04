@@ -79,7 +79,9 @@ export const satSchedule = [
         end: "18:00",
         name: "Back. Go vs Python",
         speaker: [
-          { name: "Виталий Левченко и Даниил Подольский", desc: "Golang SPb" },
+          { name: "Виталий Левченко", desc: "Golang SPb" },
+          { name: "Даниил Подольский", desc: "Golang SPb" },
+
           {
             name: "Николай Хитров",
             desc: "Moscow Python, Tech Lead Точка Банк",
