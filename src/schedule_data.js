@@ -31,8 +31,8 @@ export const satSchedule = [
             name: "Зар Захаров",
             desc: "Ведущий разработчик VK Музыка",
           },
-          { name: "Александр Каменяр", desc: "Design Trading View" },
-          { name: "Петр Жемчугов", desc: "Front SberHeals" },
+          { name: "Александр Каменяр", desc: "Product Design Director Trading View" },
+          { name: "Петр Жемчугов", desc: "Head of Front SberHeals" },
         ],
         desc: "Как код излучает красоту и пользовательский опыт",
       },
@@ -65,12 +65,11 @@ export const satSchedule = [
         end: "17:00",
         name: "Программирую на чат GPT",
         speaker: [
-          {
-            name: "Артур Сапрыкин",
-            desc: "@data_magic, предприниматель, эксперт и исследователь в области AI",
-          },
           { name: "Антон Бочкарев", desc: "Founder/CEO 3side.org" },
           { name: "Иван Морщагин", desc: "Head of QA e-legion" },
+          { name: "Анатолий Бабин", desc: "Front-end" },
+          { name: "Эдвард Хомицкий", desc: "Founder OVERONE" },
+          { name: "Илья Душин", desc: "Управляющий партнёр Т.Т.Консалтинг, ComBox Technology" },
         ],
         desc: null,
       },
@@ -81,11 +80,7 @@ export const satSchedule = [
         speaker: [
           { name: "Виталий Левченко", desc: "Golang SPb" },
           { name: "Даниил Подольский", desc: "Golang SPb" },
-
-          {
-            name: "Николай Хитров",
-            desc: "Moscow Python, Tech Lead Точка Банк",
-          },
+          { name: "Николай Хитров", desc: "Moscow Python, Tech Lead Точка Банк" },
         ],
         desc: null,
       },
@@ -140,12 +135,13 @@ export const satSchedule = [
           { name: "Владимир Торопецкий", desc: "CPO" },
           { name: "Кира Жесткова", desc: "CMO" },
           { name: "Анна Афонина", desc: "Founder" },
+          {name: "Сергей Завелишко", desc: "Руководитель проектного офиса ГК Самолет"},
         ],
         desc: "Панельное интервью",
       },
       {
         start: "16:00",
-        end: "17:00",
+        end: "18:00",
         name: "Разбор кейсов: Проблемы роста компаний",
         speaker: [
           { name: "Дмитрий Торшин", desc: "Founder UpLift.Club" },
@@ -173,7 +169,7 @@ export const satSchedule = [
       {
         start: "13:00",
         end: "14:00",
-        name: "Здоровье",
+        name: "HealthCace",
         speaker: [
           { name: "Попов Виктор Сергеевич", desc: "BIOM ведущий health-coach" },
           {
@@ -193,8 +189,8 @@ export const satSchedule = [
       {
         start: "15:00",
         end: "16:00",
-        name: 'Код "самопрезентация": как презентовать себя, чтобы получить от встреч максимум',
-        speaker: [{ name: "Елена Соколова", desc: "Карьерный консультант" }],
+        name: 'Код "самопрезентация": как презентовать себя, чтобы получить от карьеры максимум',
+        speaker: [{ name: "Елена Соколова", desc: "Product Manager карьерных продуктов, ex-Яндекс Практикум" }],
         desc: null,
       },
       {
@@ -216,7 +212,7 @@ export const satSchedule = [
         speaker: [
           {
             name: "Евгения Петцер",
-            desc: "HR BP/Руководитель подбора 'Передовые платежные решения', ex-Яндекс Практикум",
+            desc: "HR BP/Руководитель подбора 'Передовые платежные решения'",
           },
         ],
         desc: null,
@@ -260,7 +256,7 @@ export const satSchedule = [
         speaker: [
           {
             name: "Артур Сапрыкин",
-            desc: "автор и преподаватель курсов, эксперт, исследователь в области искусственного интеллекта",
+            desc: "Автор и преподаватель курсов, эксперт, исследователь в области искусственного интеллекта",
           },
         ],
         desc: null,
@@ -279,7 +275,7 @@ export const satSchedule = [
         speaker: [
           {
             name: "Бабин Анатолий",
-            desc: "front-end разработчик и наставкник по поиску работы. Ex: X5, Alfa, Yandex",
+            desc: "Front-end разработчик и наставник по поиску работы. Ex: X5, Alfa, Yandex",
           },
         ],
         desc: null,
@@ -297,7 +293,7 @@ export const satSchedule = [
         speaker: [
           {
             name: "Павел Бирюков",
-            desc: null,
+            desc: "Lead Sound designer OneWerriorStudio",
           },
         ],
         desc: null,
@@ -309,11 +305,11 @@ export const satSchedule = [
         speaker: [
           {
             name: "Вероника Акулич",
-            desc: null,
+            desc: "Арт-директор, Co-Founder студии  VistorySoft",
           },
           {
             name: "Светлана Яковлева",
-            desc: null,
+            desc: "Ведущий нарративный дизайнер в 13 Novels, преподаватель школы игровых сценаристов 'Нарраторика'",
           },
         ],
         desc: null,
@@ -325,31 +321,31 @@ export const satSchedule = [
         speaker: [
           {
             name: "Ян Байнами",
-            desc: null,
+            desc: "Founder bainami.games",
           },
           {
             name: "Аристарх Абрамовский",
-            desc: null,
+            desc: "UnityDev GamePush",
           },
           {
             name: "Соня Ковальская",
-            desc: null,
+            desc: "Лид-артист Crazy Barbarian Games",
           },
           {
             name: "Никита Ветер",
-            desc: null,
+            desc: "Гейм директор Триосказ",
           },
           {
             name: "Константин Кондюков",
-            desc: null,
+            desc: "Основатель Sumo Tatami",
           },
           {
             name: "Олег Константинов",
-            desc: null,
+            desc: "Отец-основатель Beard Games Studio",
           },
           {
             name: "Евгения Суравская",
-            desc: null,
+            desc: "Team lead/narrative designer Flying bird studio",
           },
         ],
         desc: null,
@@ -361,19 +357,19 @@ export const satSchedule = [
         speaker: [
           {
             name: "Владимир Вареник",
-            desc: null,
+            desc: "Основатель проекта Indie GO",
           },
           {
             name: "Анна Козлова",
-            desc: null,
+            desc: 'Исполнительный директор ООО "ИГРОПРОМ"',
           },
           {
             name: "Дмитрий Гаврилов",
-            desc: null,
+            desc: "Продакт-менеджер Indie Up",
           },
           {
             name: "Константин Кондюков",
-            desc: null,
+            desc: "Основатель Sumo Tatami",
           },
         ],
         desc: null,
@@ -384,8 +380,8 @@ export const satSchedule = [
         name: "Мастер-класс ревью кода.",
         speaker: [
           {
-            name: "Андрей Карпов (DevRel PVS-Studio)",
-            desc: null,
+            name: "Андрей Карпов",
+            desc: "DevRel PVS-Studio",
           },
         ],
         desc: null,
@@ -397,7 +393,7 @@ export const satSchedule = [
         speaker: [
           {
             name: "Евгений Идзиковский",
-            desc: null,
+            desc: "IT психолог",
           },
         ],
         desc: null,
@@ -464,6 +460,7 @@ export const satSchedule = [
             desc: "Руководитель В2В направления, Яндекс Практикум",
           },
           { name: "Василий Алексуткин", desc: "CPO Газпром ИД" },
+          { name: "Иван Ярославцев", desc: "CEO Alto" },
         ],
         desc: null,
       },
@@ -492,13 +489,15 @@ export const sunSchedule = [
       {
         start: "12:00",
         end: "13:00",
-        name: "Боли ЗП",
+        name: "Python всем!",
         speaker: [
-          { name: "Анна Афонина", desc: "Founder @HiPoHeads" },
-          { name: "Евгений Идзиковский", desc: "IT-психолог, психотерапевт" },
-          { name: "Александр Шишенин", desc: "CEO/Co-Founder LLC JayJoy" },
+          { name: "Александр Кириллов", desc: "CTO @ Evrone" },
+          { name: "Сергей Тимченко", desc: "Lead QA @ Positive" },
+          { name: "Демид Гаибов", desc: "ML-разработчик @ Альфа-Банк" },
+          { name: "Евгений Блинов", desc: "Python-разработчик @VK" },
         ],
-        desc: null,
+        desc: "Дискуссия с участием DevOps, QA, бэкенд-разработчика и ML'щика на тему хорошего и плохого в Питона
+Модератор: Денис Аникин (коммьюнити лид в Райффайзен-банке)",
       },
       {
         start: "13:00",
@@ -517,7 +516,7 @@ export const sunSchedule = [
         speaker: [
           {
             name: "Денис Аникин",
-            desc: "Интервьюер, коммьюнити лид в Райффайзен-банке",
+            desc: "Коммьюнити лид в Райффайзен-банке",
           },
           { name: "Бейлак Алиев", desc: "Райффайзен-банк, коммьюнити лид" },
           { name: "Шагит Зиганшин", desc: null },
@@ -531,7 +530,7 @@ export const sunSchedule = [
         speaker: [
           { name: "Сергей Яхницкий", desc: "Яндекс.Такси, Python-разработчик" },
           { name: "Николай Марков", desc: "Data Platform Lead, Altenar" },
-          { name: "Денис Аникин", desc: "коммьюнити лид в Райффайзен-банке" },
+          { name: "Денис Аникин", desc: "Коммьюнити лид в Райффайзен-банке" },
         ],
         desc: null,
       },
@@ -541,7 +540,8 @@ export const sunSchedule = [
         name: "Стэндап «Проблемы Python»",
         speaker: [
           { name: "Николай Хитров", desc: "Ведущий, Техлид @Точка-банк" },
-          { name: "TBA", desc: "Спикеры" },
+          { name: "Евгений Афонасьев", desc: "Тимлид Тинькофф" },
+          { name: "Ольга Емельянова", desc: null },
         ],
         desc: null,
       },
@@ -614,13 +614,13 @@ export const sunSchedule = [
       {
         start: "12:00",
         end: "13:00",
-        name: "Разбор Vision кейсов участников",
+        name: "Business-review",
         speaker: [{ name: "Дмитрий Торшин", desc: "Founder UpLift.Club" }],
         desc: null,
       },
       {
         start: "13:00",
-        end: "14:00",
+        end: "15:00",
         name: "От Галлюцинаций к Достижениям: От мифов к стратегии развития Бизнеса",
         speaker: [
           { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
@@ -629,12 +629,21 @@ export const sunSchedule = [
       },
       {
         start: "15:00",
+        end: "15:30",
+        name: "Дизайн-отдел на подряде",
+        speaker: [
+          { name: "Конаков Артем", desc: "СЕО студии интерфейсов UXART" },
+        ],
+        desc: null,
+      },
+      {
+        start: "15:30",
         end: "16:00",
-        name: "Design+Front=Love Q&A. Сессия со спикерами",
+        name: "Design+Front=Love. Q&A сессия со спикерами",
         speaker: [
           { name: "Зар Захаров", desc: "Ведущий разработчик VK Музыка" },
-          { name: "Александр Каменяр", desc: "Design Trading View" },
-          { name: "Петр Жемчугов", desc: "Front SberHeals" },
+          { name: "Александр Каменяр", desc: "Product Design Director Trading View" },
+          { name: "Петр Жемчугов", desc: "Head of Front SberHeals" },
         ],
         desc: null,
       },
@@ -674,7 +683,7 @@ export const sunSchedule = [
         end: "13:00",
         name: "Мастер-класс 'Нефункциональные требования и ограничения'",
         speaker: [
-          { name: "Филлипп Дельгядо", desc: "lekton.io" },
+          { name: "Филипп Дельгядо", desc: "lekton.io" },
           { name: "Даниил Подольский", desc: "Golang evangelist" },
         ],
         desc: null,
@@ -684,14 +693,14 @@ export const sunSchedule = [
         end: "14:00",
         name: "Монолиты-vs-микросервисы",
         speaker: [
-          { name: "Филлипп Дельгядо", desc: "lekton.io" },
+          { name: "Филипп Дельгядо", desc: "lekton.io" },
           { name: "Даниил Подольский", desc: "Golang evangelist" },
         ],
         desc: null,
       },
       {
         start: "14:00",
-        end: "15:00",
+        end: "17:00",
         name: "Игра 'Архитектурные Ката'",
         speaker: [
           { name: "Глеб Гончаров", desc: "Unit Lead, Сбер" },
@@ -705,7 +714,7 @@ export const sunSchedule = [
         end: "18:00",
         name: "Публичные консультации по Архитектуре от экспертов",
         speaker: [
-          { name: "Филлипп Дельгядо", desc: "lekton.io" },
+          { name: "Филипп Дельгядо", desc: "lekton.io" },
           { name: "Даниил Подольский", desc: "Golang evangelist" },
         ],
         desc: null,
@@ -731,6 +740,7 @@ export const sunSchedule = [
           { name: "Андрей Дмитриев", desc: "JUG" },
           { name: "Екатерина Куликова", desc: "Стачка" },
           { name: "Лидия Рогова", desc: "exBlockshow" },
+          { name: "Адель Макашева", desc: "DevRel Cloud.ru" },
         ],
         desc: null,
       },
@@ -740,13 +750,13 @@ export const sunSchedule = [
         name: "BDSM между отделами",
         speaker: [
           { name: "Кира Жесткова", desc: "CMO exSkyEng" },
-          { name: "Евгений Бобров", desc: "Коммерческий директор BotCreators" },
+          { name: "Евгений Боровков", desc: "Коммерческий директор BotCreators" },
         ],
         desc: null,
       },
       {
         start: "15:00",
-        end: "16:00",
+        end: "17:00",
         name: "Игра «Поймай волну» на развитие продуктового мышления",
         speaker: [
           { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
@@ -762,4 +772,15 @@ export const sunSchedule = [
       },
     ],
   },
+  {
+    zone: "Библиотека",
+    section: "Sturtup",
+    lection: [
+      {
+        start: "12:00",
+        end: "13:00",
+        name: "Питчи стартапов перед экспертами секции:",
+        speaker: [],
+        desc: "ментор и скаут проектов, инвестор, технический директор, анализ рынка и конкурентов, маркетинг и инвестиции,gamedev/bizdev, питч, бизнес трекер, юристы, hr.",
+      },
 ];
