@@ -1,6 +1,6 @@
 import { Tag } from "rsuite";
 
-export const LectionCard = ({ lection }) => {
+export const LectionCard = ({ lection, zone }) => {
   let speakers = "";
 
   if (lection.speaker !== null) {
@@ -14,6 +14,28 @@ export const LectionCard = ({ lection }) => {
       }`;
     }
   }
+
+  const getHours = (date) => {
+    if (typeof date === "string") {
+      return new Date(date).getHours();
+    } else {
+      return date.getHours();
+    }
+  };
+
+  const getMinutes = (date) => {
+    let min;
+    if (typeof date === "string") {
+      min = new Date(date).getMinutes();
+    } else {
+      min = date.getMinutes();
+    }
+    return min === 0 ? "00" : min;
+  };
+
+  const getTime = (date) => {
+    return `${getHours(date)}:${getMinutes(date)}`;
+  };
 
   return (
     <div
@@ -39,7 +61,6 @@ export const LectionCard = ({ lection }) => {
             alignItems: "baseline",
           }}
         >
-          <Tag>Frontend</Tag>
           <div>
             <p
               style={{
@@ -54,7 +75,7 @@ export const LectionCard = ({ lection }) => {
           </div>
         </div>
         <p style={{ padding: 0, margin: 0, marginRight: "8px" }}>
-          {lection.start}
+          {getTime(lection.start)}
         </p>
       </div>
     </div>
