@@ -1,4 +1,11 @@
 html {
   scrollbar-color: #cccccc #eeeeee;
   scrollbar-width: thin;
+  background-color: black;
+}
+
+.rs-drawer-header .rs-drawer-header-close {
+  position: relative;
+  top: 0;
+  left: 0;
 }

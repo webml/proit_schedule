@@ -4,15 +4,15 @@ export const satSchedule = [
     section: "HypeLoad",
     lection: [
       {
-        start: "11:00",
-        end: "12:00",
+        start: new Date("February 10, 2023 11:00"),
+        end: new Date("February 10, 2023 12:00"),
         name: "Открытие",
         speaker: null,
         desc: null,
       },
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 10, 2023 12:00"),
+        end: new Date("February 10, 2023 13:00"),
         name: "Добро пожаловать в RnD",
         speaker: [
           {
@@ -23,8 +23,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 10, 2023 13:00"),
+        end: new Date("February 10, 2023 14:00"),
         name: "Фронтенд в Сердце Дизайна",
         speaker: [
           {
@@ -37,8 +37,8 @@ export const satSchedule = [
         desc: "Как код излучает красоту и пользовательский опыт",
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 10, 2023 14:00"),
+        end: new Date("February 10, 2023 15:00"),
         name: "Криптозима",
         speaker: [
           { name: "Антон Макарчук", desc: "CMO exCryptoUniverse" },
@@ -51,8 +51,8 @@ export const satSchedule = [
         desc: "Или как купить криптокроссовки и потерять 5000$",
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 10, 2023 15:00"),
+        end: new Date("February 10, 2023 16:00"),
         name: "Баттл по SCRUM",
         speaker: [
           { name: "Алексей Пименов", desc: "Neogenda" },
@@ -61,8 +61,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 10, 2023 16:00"),
+        end: new Date("February 10, 2023 17:00"),
         name: "Программирую на чат GPT",
         speaker: [
           {
@@ -75,8 +75,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 10, 2023 17:00"),
+        end: new Date("February 10, 2023 18:00"),
         name: "Back. Go vs Python",
         speaker: [
           { name: "Виталий Левченко", desc: "Golang SPb" },
@@ -96,8 +96,8 @@ export const satSchedule = [
     section: "ТОПы",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 10, 2023 12:00"),
+        end: new Date("February 10, 2023 13:00"),
         name: "Мастер класс по фасилитации встреч менеджмента",
         speaker: [
           {
@@ -108,8 +108,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 10, 2023 13:00"),
+        end: new Date("February 10, 2023 14:00"),
         name: "Мастер класс по фасилитации встреч менеджмента",
         speaker: [
           {
@@ -120,8 +120,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 10, 2023 14:00"),
+        end: new Date("February 10, 2023 15:00"),
         name: "CTO на максималках",
         speaker: [
           { name: "Илья Прахт", desc: null },
@@ -132,8 +132,8 @@ export const satSchedule = [
         desc: "Панельное интервью",
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 10, 2023 15:00"),
+        end: new Date("February 10, 2023 16:00"),
         name: "Overqualified, проблемы роста C Level",
         speaker: [
           { name: "Илья Прахт", desc: "СТО" },
@@ -144,8 +144,8 @@ export const satSchedule = [
         desc: "Панельное интервью",
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 10, 2023 16:00"),
+        end: new Date("February 10, 2023 17:00"),
         name: "Разбор кейсов: Проблемы роста компаний",
         speaker: [
           { name: "Дмитрий Торшин", desc: "Founder UpLift.Club" },
@@ -164,15 +164,15 @@ export const satSchedule = [
     section: "Help Софт",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 10, 2023 12:00"),
+        end: new Date("February 10, 2023 13:00"),
         name: "Почему я не такой, каким хочу быть?",
         speaker: [{ name: "Евгений Идзиковский", desc: "IT психолог" }],
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 10, 2023 13:00"),
+        end: new Date("February 10, 2023 14:00"),
         name: "Здоровье",
         speaker: [
           { name: "Попов Виктор Сергеевич", desc: "BIOM ведущий health-coach" },
@@ -184,22 +184,22 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 10, 2023 14:00"),
+        end: new Date("February 10, 2023 15:00"),
         name: "Как (не)завалить нетворкинг, забыв о метасообщении",
         speaker: [{ name: "Дмитрий Филиппов", desc: "PM Kupsilla" }],
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 10, 2023 15:00"),
+        end: new Date("February 10, 2023 16:00"),
         name: 'Код "самопрезентация": как презентовать себя, чтобы получить от встреч максимум',
         speaker: [{ name: "Елена Соколова", desc: "Карьерный консультант" }],
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 10, 2023 16:00"),
+        end: new Date("February 10, 2023 17:00"),
         name: "Развитие личной и профессиональной эффективности через soft skills",
         speaker: [
           {
@@ -210,8 +210,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 10, 2023 17:00"),
+        end: new Date("February 10, 2023 18:00"),
         name: "Волшебные пилюли от выгорания",
         speaker: [
           {
@@ -228,15 +228,15 @@ export const satSchedule = [
     section: "Help Хард",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 10, 2023 12:00"),
+        end: new Date("February 10, 2023 13:00"),
         name: "Мастер класс: Эмоциональный интеллект",
         speaker: [{ name: "Александра Анисимова", desc: "Психолог" }],
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 10, 2023 13:00"),
+        end: new Date("February 10, 2023 14:00"),
         name: "Мастер-класс: инструменты ИИ в QA - миф или реальность?",
         speaker: [
           {
@@ -247,15 +247,15 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 10, 2023 14:00"),
+        end: new Date("February 10, 2023 15:00"),
         name: "Мастер-класс: программирование на Go: (не)травматичный рефакторинг",
         speaker: [{ name: "Даниил Подольский", desc: "ЯДРО" }],
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 10, 2023 15:00"),
+        end: new Date("February 10, 2023 16:00"),
         name: "Мастер-класс: Модули языковых моделей. Делегирование задач на множество моделей",
         speaker: [
           {
@@ -266,15 +266,15 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 10, 2023 16:00"),
+        end: new Date("February 10, 2023 17:00"),
         name: "Менторинг для iOS",
         speaker: [{ name: "Екатерина Батеева", desc: "iOS OK" }],
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 10, 2023 17:00"),
+        end: new Date("February 10, 2023 18:00"),
         name: "Собеседование Front",
         speaker: [
           {
@@ -291,8 +291,8 @@ export const satSchedule = [
     section: "GameDev",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 10, 2023 12:00"),
+        end: new Date("February 10, 2023 13:00"),
         name: "Мастер-класс по озвучке игр.",
         speaker: [
           {
@@ -303,8 +303,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 10, 2023 13:00"),
+        end: new Date("February 10, 2023 14:00"),
         name: "Мастер-класс по созданию персонажа нарратив+арт.",
         speaker: [
           {
@@ -319,8 +319,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 10, 2023 14:00"),
+        end: new Date("February 10, 2023 15:00"),
         name: 'Батл "Мобильные vs ПК игры".',
         speaker: [
           {
@@ -355,8 +355,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 10, 2023 15:00"),
+        end: new Date("February 10, 2023 16:00"),
         name: 'Круглый стол "Поддержка инди. Открытые возможности сегодня".',
         speaker: [
           {
@@ -379,8 +379,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 10, 2023 16:00"),
+        end: new Date("February 10, 2023 17:00"),
         name: "Мастер-класс ревью кода.",
         speaker: [
           {
@@ -391,8 +391,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 10, 2023 17:00"),
+        end: new Date("February 10, 2023 18:00"),
         name: "Разбор игр с точки зрения психологии игрока.",
         speaker: [
           {
@@ -409,8 +409,8 @@ export const satSchedule = [
     section: "Боль",
     lection: [
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 10, 2023 13:00"),
+        end: new Date("February 10, 2023 14:00"),
         name: "Боли ЗП",
         speaker: [
           { name: "Анна Афонина", desc: "Founder @HiPoHeads" },
@@ -420,8 +420,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 10, 2023 14:00"),
+        end: new Date("February 10, 2023 15:00"),
         name: "Боли фундаментальных знаний",
         speaker: [
           {
@@ -439,8 +439,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 10, 2023 15:00"),
+        end: new Date("February 10, 2023 16:00"),
         name: "Боли качества кода",
         speaker: [
           { name: "Андрей Карпов", desc: "DevRel PVS-Studio" },
@@ -450,8 +450,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 10, 2023 16:00"),
+        end: new Date("February 10, 2023 17:00"),
         name: "Боли с клиентами в B2B",
         speaker: [
           { name: "Роман Саркисов", desc: "CEO Development Service" },
@@ -468,8 +468,8 @@ export const satSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 10, 2023 17:00"),
+        end: new Date("February 10, 2023 18:00"),
         name: "Боль взаимодействия между отделами",
         speaker: [
           { name: "Яна Савельева", desc: "Senior UI/UX ИЦ ИАС" },
@@ -490,8 +490,8 @@ export const sunSchedule = [
     section: "Python",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 11, 2023 12:00"),
+        end: new Date("February 11, 2023 13:00"),
         name: "Боли ЗП",
         speaker: [
           { name: "Анна Афонина", desc: "Founder @HiPoHeads" },
@@ -501,8 +501,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 11, 2023 13:00"),
+        end: new Date("February 11, 2023 14:00"),
         name: "Мастер класс по языковым моделям — создай себе помощника",
         speaker: [
           { name: "Сениченкова Яна", desc: "Junior Data Scientist @Astera" },
@@ -511,8 +511,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 11, 2023 14:00"),
+        end: new Date("February 11, 2023 15:00"),
         name: "Плохой собес",
         speaker: [
           {
@@ -525,8 +525,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 11, 2023 15:00"),
+        end: new Date("February 11, 2023 16:00"),
         name: "«Случайная преза»",
         speaker: [
           { name: "Сергей Яхницкий", desc: "Яндекс.Такси, Python-разработчик" },
@@ -536,8 +536,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 11, 2023 16:00"),
+        end: new Date("February 11, 2023 17:00"),
         name: "Стэндап «Проблемы Python»",
         speaker: [
           { name: "Николай Хитров", desc: "Ведущий, Техлид @Точка-банк" },
@@ -546,8 +546,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 11, 2023 17:00"),
+        end: new Date("February 11, 2023 18:00"),
         name: "Спортивные дебаты",
         speaker: [
           { name: "Юрий Маркин", desc: "Разработчик, X5" },
@@ -564,43 +564,43 @@ export const sunSchedule = [
     section: "Network",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 11, 2023 12:00"),
+        end: new Date("February 11, 2023 13:00"),
         name: "IT Business Dating. Круг знакомства",
         speaker: [],
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 11, 2023 13:00"),
+        end: new Date("February 11, 2023 14:00"),
         name: "IT Business Dating, one-one встречи",
         speaker: [],
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 11, 2023 14:00"),
+        end: new Date("February 11, 2023 15:00"),
         name: "IT Business Dating, one-one встречи",
         speaker: [],
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 11, 2023 15:00"),
+        end: new Date("February 11, 2023 16:00"),
         name: "IT Expert Dating. Круг знакомства",
         speaker: [],
         desc: null,
       },
       {
-        start: "16:00",
-        end: "17:00",
+        start: new Date("February 11, 2023 16:00"),
+        end: new Date("February 11, 2023 17:00"),
         name: "IT Expert Dating, one-one с менторами",
         speaker: [],
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 11, 2023 17:00"),
+        end: new Date("February 11, 2023 18:00"),
         name: "IT Expert Dating, one-one с менторами",
         speaker: [],
         desc: null,
@@ -612,15 +612,15 @@ export const sunSchedule = [
     section: "Vision",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 11, 2023 12:00"),
+        end: new Date("February 11, 2023 13:00"),
         name: "Разбор Vision кейсов участников",
         speaker: [{ name: "Дмитрий Торшин", desc: "Founder UpLift.Club" }],
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 11, 2023 13:00"),
+        end: new Date("February 11, 2023 14:00"),
         name: "От Галлюцинаций к Достижениям: От мифов к стратегии развития Бизнеса",
         speaker: [
           { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
@@ -628,8 +628,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 11, 2023 15:00"),
+        end: new Date("February 11, 2023 16:00"),
         name: "Design+Front=Love Q&A. Сессия со спикерами",
         speaker: [
           { name: "Зар Захаров", desc: "Ведущий разработчик VK Музыка" },
@@ -639,8 +639,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "16:00",
-        end: "16:30",
+        start: new Date("February 11, 2023 16:00"),
+        end: new Date("February 11, 2023 16:30"),
         name: "Код, дизайн, UX: роль исследований в триединстве продукта и как они меняют правила игры",
         speaker: [
           { name: "Анна Котельникова", desc: "UX-researcher Lamoda Tech" },
@@ -648,15 +648,15 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "16:30",
-        end: "17:00",
+        start: new Date("February 11, 2023 16:30"),
+        end: new Date("February 11, 2023 17:00"),
         name: "Осознанность против метрик",
         speaker: [{ name: "Лиза Пескова", desc: "Product Lead Дзен" }],
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 11, 2023 17:00"),
+        end: new Date("February 11, 2023 18:00"),
         name: "Интерактив: Запуск продукта, основанный на Диснеевском подходе",
         speaker: [
           { name: "Анастасия Козлова", desc: "Marketing Product Manager" },
@@ -670,8 +670,8 @@ export const sunSchedule = [
     section: "System Design",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 11, 2023 12:00"),
+        end: new Date("February 11, 2023 13:00"),
         name: "Мастер-класс 'Нефункциональные требования и ограничения'",
         speaker: [
           { name: "Филлипп Дельгядо", desc: "lekton.io" },
@@ -680,8 +680,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 11, 2023 13:00"),
+        end: new Date("February 11, 2023 14:00"),
         name: "Монолиты-vs-микросервисы",
         speaker: [
           { name: "Филлипп Дельгядо", desc: "lekton.io" },
@@ -690,8 +690,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 11, 2023 14:00"),
+        end: new Date("February 11, 2023 15:00"),
         name: "Игра 'Архитектурные Ката'",
         speaker: [
           { name: "Глеб Гончаров", desc: "Unit Lead, Сбер" },
@@ -701,8 +701,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 11, 2023 17:00"),
+        end: new Date("February 11, 2023 18:00"),
         name: "Публичные консультации по Архитектуре от экспертов",
         speaker: [
           { name: "Филлипп Дельгядо", desc: "lekton.io" },
@@ -717,15 +717,15 @@ export const sunSchedule = [
     section: "BDSM",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 11, 2023 12:00"),
+        end: new Date("February 11, 2023 13:00"),
         name: "Где мои бонусы?",
         speaker: [{ name: "Евгений Идзиковский", desc: "IT психолог" }],
         desc: null,
       },
       {
-        start: "13:00",
-        end: "14:00",
+        start: new Date("February 11, 2023 13:00"),
+        end: new Date("February 11, 2023 14:00"),
         name: "Цифровизация результатов посещения ивента",
         speaker: [
           { name: "Андрей Дмитриев", desc: "JUG" },
@@ -735,8 +735,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "14:00",
-        end: "15:00",
+        start: new Date("February 11, 2023 14:00"),
+        end: new Date("February 11, 2023 15:00"),
         name: "BDSM между отделами",
         speaker: [
           { name: "Кира Жесткова", desc: "CMO exSkyEng" },
@@ -745,8 +745,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "15:00",
-        end: "16:00",
+        start: new Date("February 11, 2023 15:00"),
+        end: new Date("February 11, 2023 16:00"),
         name: "Игра «Поймай волну» на развитие продуктового мышления",
         speaker: [
           { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
@@ -754,8 +754,8 @@ export const sunSchedule = [
         desc: null,
       },
       {
-        start: "17:00",
-        end: "18:00",
+        start: new Date("February 11, 2023 17:00"),
+        end: new Date("February 11, 2023 18:00"),
         name: "ЧГК по нестандартным задачам, которые приходят в отдел аналитики",
         speaker: [{ name: "Анна Горбатенко", desc: null }],
         desc: null,
