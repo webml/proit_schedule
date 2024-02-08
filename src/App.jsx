@@ -12,7 +12,7 @@ const App = () => {
   const [day, setDay] = useState("sat");
   const [open, setOpen] = useState(false);
   const [currentList, setCurrentList] = useState([]);
-  const [zone, setZone] = useState("Ваш список");
+  const [zone, setZone] = useState("Избранные");
 
   const mode = {
     sat: satSchedule,
@@ -20,6 +20,14 @@ const App = () => {
   };
 
   const handelLectionListClick = () => {
+    const lections = JSON.parse(localStorage.getItem("userLections"));
+
+    const sorted = lections.sort((a, b) => (a.start > b.start ? 1 : -1));
+
+    console.log(lections);
+
+    setCurrentList(sorted);
+    setZone("Избранные");
     setOpen(true);
   };
 
@@ -31,9 +39,21 @@ const App = () => {
         height: "100dvh",
         display: "grid",
         gridColumn: 1,
-        gridTemplateRows: "14px auto 32px",
+        gridTemplateRows: "224px 14px auto 32px",
       }}
     >
+      <img
+        style={{
+          padding: "8px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          marginTop: "8px",
+          marginBottom: "16px",
+          height: "208px",
+          boxSizing: "border-box",
+        }}
+        src="/logo.png"
+      />
       <ButtonGroup
         style={{
           paddingRight: "16px",
