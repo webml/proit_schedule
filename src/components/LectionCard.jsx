@@ -53,6 +53,8 @@ export const LectionCard = ({ lection, zone }) => {
       "Бизнес":"LightSteelBlue",
       "Дизайнеры":"LightSalmon",
     }
+
+    return colors[key];
   }
 
   return (
@@ -90,6 +92,7 @@ export const LectionCard = ({ lection, zone }) => {
               {lection.name}
             </p>
             <p style={{ color: "gray", padding: 0, margin: 0 }}>{speakers}</p>
+            <Tag>{zone === 'Избранные' ? `${lec.zone}|${lec.section}` : lec.tag}</Tag>
           </div>
         </div>
         <p style={{ padding: 0, margin: 0, marginRight: "8px" }}>
