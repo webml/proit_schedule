@@ -20,11 +20,28 @@ export const Map = ({ open, setOpen }) => {
         <Drawer.Title>Карта</Drawer.Title>
       </Drawer.Header>
       <Drawer.Body style={{ margin: 0, padding: "0 8px 16px" }}>
+        <div style={{ marginTop: "16px" }}></div>
+        {day === "sat" ? (
+          <img
+            src="map_sat.jpg"
+            style={{ width: "100%", borderRadius: "8px" }}
+          />
+        ) : day === "sun" ? (
+          <img
+            src="map_sun.jpg"
+            style={{ width: "100%", borderRadius: "8px" }}
+          />
+        ) : (
+          <img
+            src="map_drink.jpg"
+            style={{ width: "100%", borderRadius: "8px" }}
+          />
+        )}
         <ButtonGroup
           style={{
             paddingRight: "16px",
             paddingLeft: "16px",
-            marginBottom: "-16px",
+            marginTop: "-16px",
           }}
           size="sm"
           justified
@@ -37,6 +54,13 @@ export const Map = ({ open, setOpen }) => {
             Суббота
           </Button>
           <Button
+            style={{ backgroundColor: day === "dr" ? "snow" : "lightgray" }}
+            active={day === "dr"}
+            onClick={() => setDay("dr")}
+          >
+            Drinkup
+          </Button>
+          <Button
             style={{ backgroundColor: day === "sun" ? "snow" : "lightgray" }}
             active={day === "sun"}
             onClick={() => setDay("sun")}
@@ -44,7 +68,6 @@ export const Map = ({ open, setOpen }) => {
             Воскресенье
           </Button>
         </ButtonGroup>
-        {day === "sat" ? <img /> : <img />}
       </Drawer.Body>
     </Drawer>
   );

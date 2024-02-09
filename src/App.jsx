@@ -114,7 +114,7 @@ const App = () => {
         icon={<StarIcon color="coral" />}
         onClick={handelLectionListClick}
       />
-      {/* <IconButton
+      <IconButton
         style={{
           position: "fixed",
           left: "8px",
@@ -123,7 +123,7 @@ const App = () => {
         }}
         icon={<MapIcon color="DodgerBlue" />}
         onClick={handelMapClick}
-      /> */}
+      />
       {open && (
         <LectionList
           zone={zone}
