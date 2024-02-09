@@ -37,6 +37,24 @@ export const LectionCard = ({ lection, zone }) => {
     return `${getHours(date)}:${getMinutes(date)}`;
   };
 
+  const getColor = key => {
+    if (key === null) {
+      return 'WhiteSmoke'
+    }
+    
+    const colors = {
+      "Для всех": "PaleGreen",
+      "Frontend": "LemonChiffon",
+      "Backend":"Plum",
+      "Менеджмент":"LightCyan",
+      "iOS":"LightSkyBlue",
+      "DataScience":"Bisque",
+      "QA":"LavenderBlush",
+      "Бизнес":"LightSteelBlue",
+      "Дизайнеры":"LightSalmon",
+    }
+  }
+
   return (
     <div
       style={{
