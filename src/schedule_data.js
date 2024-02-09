@@ -799,8 +799,8 @@ export const sunSchedule = [
     section: "Sturtup",
     lection: [
       {
-        start: "12:00",
-        end: "13:00",
+        start: new Date("February 11, 2023 12:00"),
+        end: new Date("February 11, 2023 13:00"),
         name: "Питчи стартапов перед экспертами секции:",
         speaker: [],
         desc: "ментор и скаут проектов, инвестор, технический директор, анализ рынка и конкурентов, маркетинг и инвестиции,gamedev/bizdev, питч, бизнес трекер, юристы, hr.",

@@ -22,7 +22,7 @@ const App = () => {
   const handelLectionListClick = () => {
     const lections = JSON.parse(localStorage.getItem("userLections"));
 
-    const sorted = lections.sort((a, b) => (a.start > b.start ? 1 : -1));
+    const sorted = lections?.sort((a, b) => (a.start > b.start ? 1 : -1));
 
     console.log(lections);
 
@@ -52,7 +52,7 @@ const App = () => {
           height: "208px",
           boxSizing: "border-box",
         }}
-        src="/logo.png"
+        src="logo.png"
       />
       <ButtonGroup
         style={{
