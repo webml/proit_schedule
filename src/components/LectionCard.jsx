@@ -37,6 +37,26 @@ export const LectionCard = ({ lection, zone }) => {
     return `${getHours(date)}:${getMinutes(date)}`;
   };
 
+  const getColor = key => {
+    if (key === null) {
+      return 'WhiteSmoke'
+    }
+    
+    const colors = {
+      "Для всех": "PaleGreen",
+      "Frontend": "LemonChiffon",
+      "Backend":"Plum",
+      "Менеджмент":"LightCyan",
+      "iOS":"LightSkyBlue",
+      "DataScience":"Bisque",
+      "QA":"LavenderBlush",
+      "Бизнес":"LightSteelBlue",
+      "Дизайнеры":"LightSalmon",
+    }
+
+    return colors[key];
+  }
+
   return (
     <div
       style={{
@@ -72,6 +92,7 @@ export const LectionCard = ({ lection, zone }) => {
               {lection.name}
             </p>
             <p style={{ color: "gray", padding: 0, margin: 0 }}>{speakers}</p>
+            <Tag>{zone === 'Избранные' ? `${lec.zone}|${lec.section}` : lec.tag}</Tag>
           </div>
         </div>
         <p style={{ padding: 0, margin: 0, marginRight: "8px" }}>
