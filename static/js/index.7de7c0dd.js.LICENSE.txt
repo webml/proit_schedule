@@ -1,4 +1,6 @@
-/*! react-dom/client */
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! core-js/modules/es.array.push.js */
 
 /*! core-js/modules/esnext.iterator.map.js */
 
@@ -6,7 +8,7 @@
 
 /*! core-js/modules/esnext.iterator.constructor.js */
 
-/*! react */
+/*! react-dom/client */
 
 /*! core-js/modules/esnext.async-iterator.map.js */
 
@@ -16,23 +18,29 @@
 
 /*! react/jsx-runtime */
 
-/*! react/jsx-runtime */
-
-/*! core-js/modules/esnext.json.parse.js */
-
 /*! ./components/LectionList */
 
+/*! react/jsx-runtime */
+
+/*! react */
+
 /*! rsuite */
-
-/*! ./LectionCard */
-
-/*! ./App */
 
 /*! core-js/modules/esnext.iterator.filter.js */
 
 /*! @rsuite/icons/legacy/Star */
 
+/*! core-js/modules/esnext.json.parse.js */
+
+/*! ./LectionCard */
+
+/*! ./App */
+
+/*! @rsuite/icons/legacy/Star */
+
 /*! react/jsx-runtime */
+
+/*! core-js/modules/esnext.async-iterator.filter.js */
 
 /*! core-js/modules/es.array.includes.js */
 
@@ -42,34 +50,26 @@
 
 /*! react */
 
-/*! @rsuite/icons/legacy/Star */
-
-/*! rsuite */
-
-/*! @rsuite/icons/legacy/Star */
-
-/*! core-js/modules/esnext.async-iterator.filter.js */
-
-/*! core-js/modules/esnext.iterator.map.js */
-
-/*! rsuite */
-
 /*! core-js/modules/esnext.json.parse.js */
 
-/*! core-js/modules/esnext.async-iterator.map.js */
-
 /*! ./styles.css */
+
+/*! rsuite */
+
+/*! @rsuite/icons/legacy/Star */
+
+/*! core-js/modules/esnext.iterator.map.js */
 
 /*! react/jsx-runtime */
 
 /*! react */
 
-/*! core-js/modules/esnext.async-iterator.map.js */
-
 /*! rsuite */
 
 /*! react/jsx-runtime */
 
-/*! ./schedule_data */
+/*! rsuite */
 
-/*! core-js/modules/es.array.push.js */
+/*! core-js/modules/esnext.async-iterator.map.js */
+
+/*! ./schedule_data */
