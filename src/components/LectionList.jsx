@@ -20,8 +20,8 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
   let sat, sun;
 
   if (zone === "Избранные") {
-    sat = lections.filter((lec) => getDay(lec.start) === "Суббота");
-    sun = lections.filter((lec) => getDay(lec.start) === "Воскресенье");
+    sat = lections?.filter((lec) => getDay(lec.start) === "Суббота");
+    sun = lections?.filter((lec) => getDay(lec.start) === "Воскресенье");
   }
 
   return (
@@ -43,7 +43,8 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
       <Drawer.Body style={{ margin: 0, padding: "0 8px 16px" }}>
         {zone === "Избранные" ? (
           <>
-            {sat.length === 0 && sun.length === 0 ? (
+            {(sat && sun && sat.length === 0 && sun.length === 0) ||
+            (!sat && !sun) ? (
               <div style={{ padding: "16px" }}>
                 <h4>Вы еще не добавили лекции</h4>
                 <p>
@@ -56,13 +57,13 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
               </div>
             ) : (
               <>
-                {sat.length !== 0 && (
+                {sat && sat.length !== 0 && (
                   <>
                     <h4>Суббота</h4>
                     <ScheduleList lection={sat} zone={zone} />
                   </>
                 )}
-                {sun.length !== 0 && (
+                {sun && sun.length !== 0 && (
                   <>
                     <h4>Воскресенье</h4>
                     <ScheduleList lection={sun} zone={zone} />
