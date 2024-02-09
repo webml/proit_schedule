@@ -30,7 +30,7 @@ export const SectionList = ({ schedule, setCurrentList, setOpen, setZone }) => {
             flexDirection: "row",
             justifyContent: "space-between",
             alignItems: "center",
-            backgroundColor: sec.color,
+            backgroundColor: "WhiteSmoke",
             borderRadius: "12px",
           }}
           onClick={() => handelSectionClick(sec.lection, sec.section)}

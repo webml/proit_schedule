@@ -37,25 +37,26 @@ export const LectionCard = ({ lection, zone }) => {
     return `${getHours(date)}:${getMinutes(date)}`;
   };
 
-  const getColor = key => {
-    if (key === null) {
-      return 'WhiteSmoke'
-    }
-    
-    const colors = {
-      "Для всех": "PaleGreen",
-      "Frontend": "LemonChiffon",
-      "Backend":"Plum",
-      "Менеджмент":"LightCyan",
-      "iOS":"LightSkyBlue",
-      "DataScience":"Bisque",
-      "QA":"LavenderBlush",
-      "Бизнес":"LightSteelBlue",
-      "Дизайнеры":"LightSalmon",
+  const getColor = (key) => {
+    if (key === null || key.length > 10) {
+      return "WhiteSmoke";
     }
 
+    const colors = {
+      "Для всех": "PaleGreen",
+      Frontend: "LemonChiffon",
+      Backend: "Plum",
+      Менеджмент: "LightCyan",
+      iOS: "LightSkyBlue",
+      DataScience: "Bisque",
+      QA: "LavenderBlush",
+      Бизнес: "LightSteelBlue",
+      Дизайнеры: "LightSalmon",
+      GameDev: "DarkTurquoise",
+    };
+
     return colors[key];
-  }
+  };
 
   return (
     <div
@@ -63,7 +64,7 @@ export const LectionCard = ({ lection, zone }) => {
         padding: "8px",
         marginTop: "8px",
         borderRadius: "12px",
-        backgroundColor: "WhiteSmoke",
+        backgroundColor: "whitesmoke",
         marginRight: "-8px",
       }}
     >
@@ -92,7 +93,11 @@ export const LectionCard = ({ lection, zone }) => {
               {lection.name}
             </p>
             <p style={{ color: "gray", padding: 0, margin: 0 }}>{speakers}</p>
-            <Tag>{zone === 'Избранные' ? `${lec.zone}|${lec.section}` : lec.tag}</Tag>
+            <Tag style={{ backgroundColor: getColor(lection.tag) }}>
+              {zone === "Избранные"
+                ? `${lection.zone} | ${lection.section}`
+                : lection.tag}
+            </Tag>
           </div>
         </div>
         <p style={{ padding: 0, margin: 0, marginRight: "8px" }}>

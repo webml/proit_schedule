@@ -86,8 +86,6 @@ export const satSchedule = [
         speaker: [
           { name: "Антон Бочкарев", desc: "Founder/CEO 3side.org" },
           { name: "Иван Морщагин", desc: "Head of QA e-legion" },
-          { name: "Анатолий Бабин", desc: "Front-end" },
-          { name: "Эдвард Хомицкий", desc: "Founder OVERONE" },
           {
             name: "Илья Душин",
             desc: "Управляющий партнёр Т.Т.Консалтинг, ComBox Technology",
@@ -124,21 +122,6 @@ export const satSchedule = [
     lection: [
       {
         start: new Date("February 10, 2023 12:00"),
-        end: new Date("February 10, 2023 13:00"),
-        name: "Мастер класс по фасилитации встреч менеджмента",
-        speaker: [
-          {
-            name: "Роман Абрамов",
-            desc: "Co-Founder ProductStar, Parts Auto",
-          },
-        ],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Библиотека",
-        section: "ТОПы",
-      },
-      {
-        start: new Date("February 10, 2023 13:00"),
         end: new Date("February 10, 2023 14:00"),
         name: "Мастер класс по фасилитации встреч менеджмента",
         speaker: [
@@ -152,6 +135,7 @@ export const satSchedule = [
         zone: "Библиотека",
         section: "ТОПы",
       },
+
       {
         start: new Date("February 10, 2023 14:00"),
         end: new Date("February 10, 2023 15:00"),
@@ -223,7 +207,7 @@ export const satSchedule = [
       {
         start: new Date("February 10, 2023 13:00"),
         end: new Date("February 10, 2023 14:00"),
-        name: "HealthCace",
+        name: "HealthCare",
         speaker: [
           { name: "Попов Виктор Сергеевич", desc: "BIOM ведущий health-coach" },
           {
@@ -449,7 +433,7 @@ export const satSchedule = [
           },
         ],
         desc: null,
-        tag: "iOS|Backend|GameDev",
+        tag: "iOS | Backend | GameDev",
         zone: "Brand Room",
         section: "GameDev",
       },

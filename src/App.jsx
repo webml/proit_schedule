@@ -1,16 +1,19 @@
 import "rsuite/dist/rsuite.min.css";
 import "./styles.css";
-import { ScheduleList } from "./components/ScheduleList";
 import { ButtonGroup, Button, IconButton } from "rsuite";
 import { useState } from "react";
 import { satSchedule, sunSchedule } from "./schedule_data";
 import { LectionList } from "./components/LectionList";
 import StarIcon from "@rsuite/icons/legacy/Star";
+import MapIcon from "@rsuite/icons/legacy/MapSigns";
+
 import { SectionList } from "./components/SectionList";
+import { Map } from "./components/Map";
 
 const App = () => {
   const [day, setDay] = useState("sat");
   const [open, setOpen] = useState(false);
+  const [openMap, setOpenMap] = useState(false);
   const [currentList, setCurrentList] = useState([]);
   const [zone, setZone] = useState("Избранные");
 
@@ -29,6 +32,10 @@ const App = () => {
     setCurrentList(sorted);
     setZone("Избранные");
     setOpen(true);
+  };
+
+  const handelMapClick = () => {
+    setOpenMap(true);
   };
 
   return (
@@ -107,6 +114,16 @@ const App = () => {
         icon={<StarIcon color="coral" />}
         onClick={handelLectionListClick}
       />
+      {/* <IconButton
+        style={{
+          position: "fixed",
+          left: "8px",
+          bottom: "24px",
+          boxShadow: "0 0 8px rgba(0,0,0,.25)",
+        }}
+        icon={<MapIcon color="DodgerBlue" />}
+        onClick={handelMapClick}
+      /> */}
       {open && (
         <LectionList
           zone={zone}
@@ -115,6 +132,7 @@ const App = () => {
           lections={currentList}
         />
       )}
+      {openMap && <Map open={openMap} setOpen={setOpenMap} />}
     </div>
   );
 };
