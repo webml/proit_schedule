@@ -211,8 +211,8 @@ export const satSchedule = [
         speaker: [
           { name: "Попов Виктор Сергеевич", desc: "BIOM ведущий health-coach" },
           {
-            name: "Терушкин Роман Алексеевич",
-            desc: "BIOM ведущий врач эндокринолог",
+            name: "Анна Русанова",
+            desc: null,
           },
         ],
         desc: null,
