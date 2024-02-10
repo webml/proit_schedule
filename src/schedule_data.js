@@ -980,7 +980,7 @@ export const sunSchedule = [
   },
   {
     zone: "Библиотека",
-    section: "Sturtup",
+    section: "Startup",
     color: "Lavender",
     lection: [
       {
@@ -991,7 +991,7 @@ export const sunSchedule = [
         desc: "Ментор и скаут проектов, инвестор, технический директор, анализ рынка и конкурентов, маркетинг и инвестиции,gamedev/bizdev, питч, бизнес трекер, юристы, hr.",
         tag: "startup",
         zone: "Библиотека",
-        section: "Sturtup",
+        section: "Startup",
       },
       {
         start: new Date("February 11, 2023 13:00"),
