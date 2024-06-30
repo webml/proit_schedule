@@ -46,7 +46,8 @@ const App = () => {
         height: "100dvh",
         display: "grid",
         gridColumn: 1,
-        gridTemplateRows: "224px 14px auto 32px",
+        overflowX: "hidden",
+        gridTemplateRows: "auto 14px auto 32px",
       }}
     >
       <img
@@ -56,8 +57,11 @@ const App = () => {
           marginRight: "auto",
           marginTop: "8px",
           marginBottom: "16px",
-          height: "208px",
+          maxHeight: "208px",
           boxSizing: "border-box",
+          width: "100%",
+          maxWidth: "520px",
+          objectFit: "cover",
         }}
         src="logo.png"
       />
