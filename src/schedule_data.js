@@ -268,10 +268,7 @@ export const satSchedule = [
         section: "Network",
       }
     ]
-  }
-];
-
-export const goGlobalSchedule = [
+  },
   {
     zone: "Бар «Мачты»",
     section: "GoGlobal",
