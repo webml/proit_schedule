@@ -351,7 +351,7 @@ export const satSchedule = [
       {
         start: new Date("2024-10-26T17:00:00"),
         end: new Date("2024-10-26T17:50:00"),
-        name: "Итоги ИТ-экспорта",
+        name: "Ошибки ИТ-экспорта",
         speaker: [
           {
             name: "Виталий Янко", desc: "Управляющий партнер консалтинга softwarelead.pro"
