@@ -1,4 +1,4 @@
-import { useState } from "react";
+// import { useState } from "react";
 import { Drawer, ButtonGroup, Button } from "rsuite";
 
 export const Map = ({ open, setOpen }) => {
@@ -6,7 +6,7 @@ export const Map = ({ open, setOpen }) => {
     setOpen(false);
   };
 
-  const [day, setDay] = useState("sat");
+  // const [day, setDay] = useState("sat");
 
   return (
     <Drawer size="full" placement={"bottom"} open={open} onClose={handleClose}>
@@ -21,7 +21,11 @@ export const Map = ({ open, setOpen }) => {
       </Drawer.Header>
       <Drawer.Body style={{ margin: 0, padding: "0 8px 16px" }}>
         <div style={{ marginTop: "16px" }}></div>
-        {day === "sat" ? (
+        <img
+            src="map.svg"
+            style={{ width: "100%", height: '100%', borderRadius: "2px", transform: 'rotate(90deg)' }}
+          />
+        {/* {day === "sat" ? (
           <img
             src="map_sat.jpg"
             style={{ width: "100%", borderRadius: "8px" }}
@@ -36,8 +40,8 @@ export const Map = ({ open, setOpen }) => {
             src="map_drink.jpg"
             style={{ width: "100%", borderRadius: "8px" }}
           />
-        )}
-        <ButtonGroup
+        )} */}
+        {/* <ButtonGroup
           style={{
             paddingRight: "16px",
             paddingLeft: "16px",
@@ -67,7 +71,7 @@ export const Map = ({ open, setOpen }) => {
           >
             Воскресенье
           </Button>
-        </ButtonGroup>
+        </ButtonGroup> */}
       </Drawer.Body>
     </Drawer>
   );

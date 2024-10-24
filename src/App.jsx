@@ -70,20 +70,20 @@ const App = () => {
         size="sm"
         justified
       >
-        <Button
+        {/* <Button
           style={{ backgroundColor: day === "sat" ? "snow" : "lightgray" }}
           active={day === "sat"}
           onClick={() => setDay("sat")}
         >
           Суббота
-        </Button>
-        <Button
+        </Button> */}
+        {/* <Button
           style={{ backgroundColor: day === "sun" ? "snow" : "lightgray" }}
           active={day === "sun"}
           onClick={() => setDay("sun")}
         >
           Воскресенье
-        </Button>
+        </Button> */}
       </ButtonGroup>
       <SectionList
         schedule={mode[day]}
@@ -104,26 +104,26 @@ const App = () => {
       >
         Разработал Миша Любарец
       </a>
-      <IconButton
+      <Button
         style={{
           position: "fixed",
           right: "8px",
           bottom: "24px",
           boxShadow: "0 0 8px rgba(0,0,0,.25)",
         }}
-        icon={<StarIcon color="coral" />}
         onClick={handelLectionListClick}
-      />
-      <IconButton
+      >
+        <StarIcon color="coral" style={{ marginRight: '8px'}} />Избранное
+      </Button>
+      <Button
         style={{
           position: "fixed",
           left: "8px",
           bottom: "24px",
           boxShadow: "0 0 8px rgba(0,0,0,.25)",
         }}
-        icon={<MapIcon color="DodgerBlue" />}
         onClick={handelMapClick}
-      />
+      ><MapIcon color="DodgerBlue" style={{ marginRight: '8px'}}/>Карта</Button>
       {open && (
         <LectionList
           zone={zone}

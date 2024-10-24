@@ -1,1080 +1,373 @@
 export const satSchedule = [
   {
-    zone: "Music Hall",
+    zone: "Бар «Ритмы»",
     section: "HypeLoad",
-    color: "Lavender",
+    color: null,
     lection: [
       {
-        start: new Date("February 10, 2023 11:00"),
-        end: new Date("February 10, 2023 12:00"),
-        name: "Открытие",
-        speaker: null,
-        desc: null,
+        start: new Date("2024-10-26T12:00:00"),
+        end: new Date("2024-10-26T12:50:00"),
+        name: "Куда же без ИИ?",
+        speaker: [
+          {
+            name: "Константин Куликов", desc: "Исполнительный директор Сбер AI"
+          },
+          {
+            name: "Руслан Сафин", desc: "Соучредитель и технический директор Byndyusoft"
+          },
+          {
+            name: "Илья Душин", desc: "генеральный директор ComBox Technology"
+          }
+        ],
+        desc: "Обсуждение влияния ИИ на индустрию.",
         tag: null,
-        zone: "Music Hall",
+        zone: "Бар «Ритмы»",
         section: "HypeLoad",
       },
       {
-        start: new Date("February 10, 2023 12:00"),
-        end: new Date("February 10, 2023 13:00"),
-        name: "Добро пожаловать в RnD",
+        start: new Date("2024-10-26T13:00:00"),
+        end: new Date("2024-10-26T13:50:00"),
+        name: "SkillSet Тонни Старка",
         speaker: [
           {
-            name: "Егор Бугаенко",
-            desc: "Директор лаборатории Huawei, Founder Zerocracy",
-          },
+            name: "Максим Чернухин", desc: "СТО СберСтрахование"
+          }
         ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Music Hall",
+        desc: "Самые необычные навыки, которые помогут вам стать СТО.",
+        tag: null,
+        zone: "Бар «Ритмы»",
         section: "HypeLoad",
       },
       {
-        start: new Date("February 10, 2023 13:00"),
-        end: new Date("February 10, 2023 14:00"),
-        name: "Фронтенд в Сердце Дизайна",
+        start: new Date("2024-10-26T14:00:00"),
+        end: new Date("2024-10-26T14:50:00"),
+        name: "Воркшоп по микросервисам",
         speaker: [
           {
-            name: "Зар Захаров",
-            desc: "Ведущий разработчик VK Музыка",
-          },
-          {
-            name: "Александр Каменяр",
-            desc: "Product Design Director Trading View",
-          },
-          { name: "Петр Жемчугов", desc: "Head of Front SberHeals" },
+            name: "Руслан Сафин", desc: "Технический директор Byndyusoft"
+          }
         ],
-        desc: "Как код излучает красоту и пользовательский опыт",
-        tag: "Frontend",
-        zone: "Music Hall",
+        desc: "Обсуждение микросервисных паттернов и решений.",
+        tag: null,
+        zone: "Бар «Ритмы»",
         section: "HypeLoad",
       },
       {
-        start: new Date("February 10, 2023 14:00"),
-        end: new Date("February 10, 2023 15:00"),
-        name: "Криптозима",
+        start: new Date("2024-10-26T16:00:00"),
+        end: new Date("2024-10-26T16:25:00"),
+        name: "Восточный софт",
         speaker: [
-          { name: "Антон Макарчук", desc: "CMO exCryptoUniverse" },
-          { name: "Алексей Сидоров", desc: "Rust Developer exBitFury" },
           {
-            name: "Дмитрий Мачихин",
-            desc: "Blockchain evangelist exCoinTelegraph",
-          },
+            name: "Александр Калошин", desc: "Product GitLife, IT авантюрист"
+          }
         ],
-        desc: "Или как купить криптокроссовки и потерять 5000$",
-        tag: "Для всех",
-        zone: "Music Hall",
+        desc: "Обзор китайского опенсорса.",
+        tag: null,
+        zone: "Бар «Ритмы»",
         section: "HypeLoad",
       },
       {
-        start: new Date("February 10, 2023 15:00"),
-        end: new Date("February 10, 2023 16:00"),
-        name: "Баттл по SCRUM",
+        start: new Date("2024-10-26T16:25:00"),
+        end: new Date("2024-10-26T16:50:00"),
+        name: "CTO против всех",
         speaker: [
-          { name: "Алексей Пименов", desc: "Neogenda" },
-          { name: "Филипп Дельгядо", desc: "lekton.io" },
+          {
+            name: "Анатолий Иванов", desc: "Директор по разработке Investing.com"
+          }
         ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Music Hall",
+        desc: "Кто на самом деле тормозит процессы.",
+        tag: null,
+        zone: "Бар «Ритмы»",
         section: "HypeLoad",
       },
       {
-        start: new Date("February 10, 2023 16:00"),
-        end: new Date("February 10, 2023 17:00"),
-        name: "Программирую на чат GPT",
+        start: new Date("2024-10-26T16:25:00"),
+        end: new Date("2024-10-26T16:50:00"),
+        name: "DevOps разговоры",
         speaker: [
-          { name: "Антон Бочкарев", desc: "Founder/CEO 3side.org" },
-          { name: "Иван Морщагин", desc: "Head of QA e-legion" },
           {
-            name: "Илья Душин",
-            desc: "Управляющий партнёр Т.Т.Консалтинг, ComBox Technology",
+            name: "Александр Крылов", desc: "Team Lead Bimeister"
           },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Music Hall",
-        section: "HypeLoad",
-      },
-      {
-        start: new Date("February 10, 2023 17:00"),
-        end: new Date("February 10, 2023 18:00"),
-        name: "Back. Go vs Python",
-        speaker: [
-          { name: "Виталий Левченко", desc: "Golang SPb" },
-          { name: "Даниил Подольский", desc: "Golang SPb" },
           {
-            name: "Николай Хитров",
-            desc: "Moscow Python, Tech Lead Точка Банк",
-          },
+            name: "Александр Чистяков", desc: "DevOps Engineer"
+          }
         ],
-        desc: null,
-        tag: "Backend",
-        zone: "Music Hall",
+        desc: "Разговоры за жизнь в мире DevOps.",
+        tag: null,
+        zone: "Бар «Ритмы»",
         section: "HypeLoad",
       },
     ],
   },
-  {
-    zone: "Библиотека",
-    section: "ТОПы",
-    color: "DeepSkyBlue",
-    lection: [
-      {
-        start: new Date("February 10, 2023 12:00"),
-        end: new Date("February 10, 2023 14:00"),
-        name: "Мастер класс по фасилитации встреч менеджмента",
-        speaker: [
-          {
-            name: "Роман Абрамов",
-            desc: "Co-Founder ProductStar, Parts Auto",
-          },
-        ],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Библиотека",
-        section: "ТОПы",
-      },
 
-      {
-        start: new Date("February 10, 2023 14:00"),
-        end: new Date("February 10, 2023 15:00"),
-        name: "CTO на максималках",
-        speaker: [
-          { name: "Илья Прахт", desc: null },
-          { name: "Артур Дементьев", desc: null },
-          { name: "Николай Лаптев", desc: null },
-          { name: "Андрей Гостюхин", desc: null },
-        ],
-        desc: "Панельное интервью",
-        tag: "Для всех",
-        zone: "Библиотека",
-        section: "ТОПы",
-      },
-      {
-        start: new Date("February 10, 2023 15:00"),
-        end: new Date("February 10, 2023 16:00"),
-        name: "Overqualified, проблемы роста C Level",
-        speaker: [
-          { name: "Илья Прахт", desc: "СТО" },
-          { name: "Владимир Торопецкий", desc: "CPO" },
-          { name: "Кира Жесткова", desc: "CMO" },
-          { name: "Анна Афонина", desc: "Founder" },
-          {
-            name: "Сергей Завелишко",
-            desc: "Руководитель проектного офиса ГК Самолет",
-          },
-        ],
-        desc: "Панельное интервью",
-        tag: "Менеджмент",
-        zone: "Библиотека",
-        section: "ТОПы",
-      },
-      {
-        start: new Date("February 10, 2023 16:00"),
-        end: new Date("February 10, 2023 18:00"),
-        name: "Разбор кейсов: Проблемы роста компаний",
-        speaker: [
-          { name: "Дмитрий Торшин", desc: "Founder UpLift.Club" },
-          { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
-          {
-            name: "Станислав Тихомолов",
-            desc: "Founder and Investor @tihomolov",
-          },
-        ],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Библиотека",
-        section: "ТОПы",
-      },
-    ],
-  },
   {
-    zone: "Игровая Зона",
-    section: "Help Софт",
-    color: "Moccasin",
+    zone: "Бар «Goja»",
+    section: "Hiring",
+    color: null,
     lection: [
       {
-        start: new Date("February 10, 2023 12:00"),
-        end: new Date("February 10, 2023 13:00"),
-        name: "Почему я не такой, каким хочу быть?",
-        speaker: [{ name: "Евгений Идзиковский", desc: "IT психолог" }],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Софт",
-      },
-      {
-        start: new Date("February 10, 2023 13:00"),
-        end: new Date("February 10, 2023 14:00"),
-        name: "HealthCare",
-        speaker: [
-          { name: "Попов Виктор Сергеевич", desc: "BIOM ведущий health-coach" },
-          {
-            name: "Терушкин Роман Алексеевич",
-            desc: "BIOM ведущий врач эндокринолог",
-          },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Софт",
-      },
-      {
-        start: new Date("February 10, 2023 14:00"),
-        end: new Date("February 10, 2023 15:00"),
-        name: "Как (не)завалить нетворкинг, забыв о метасообщении",
-        speaker: [{ name: "Дмитрий Филиппов", desc: "PM Kupsilla" }],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Софт",
-      },
-      {
-        start: new Date("February 10, 2023 15:00"),
-        end: new Date("February 10, 2023 16:00"),
-        name: 'Код "самопрезентация": как презентовать себя, чтобы получить от карьеры максимум',
+        start: new Date("2024-10-26T12:00:00"),
+        end: new Date("2024-10-26T12:50:00"),
+        name: "ИИ и HR tech",
         speaker: [
           {
-            name: "Елена Соколова",
-            desc: "Product Manager карьерных продуктов, ex-Яндекс Практикум",
-          },
+            name: "Светлана Петровичева", desc: "Founder Get IT, TechRec"
+          }
         ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Софт",
+        desc: "Автоматизация работы HR и разработчиков.",
+        tag: null,
+        zone: "Бар «Goja»",
+        section: "Hiring",
       },
       {
-        start: new Date("February 10, 2023 16:00"),
-        end: new Date("February 10, 2023 17:00"),
-        name: "Развитие личной и профессиональной эффективности через soft skills",
+        start: new Date("2024-10-26T13:00:00"),
+        end: new Date("2024-10-26T13:50:00"),
+        name: "Discovery подход в HR",
         speaker: [
           {
-            name: "Лидия Рогова",
-            desc: "God of networking, независимый эксперт, личный и групповой коуч ICF",
+            name: "Елена Надеина", desc: "Head of CX, T-Bank"
           },
+          {
+            name: "Владимир Скляренко", desc: "Руководитель отдела IT подбора, Т-Банк"
+          }
         ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Софт",
+        desc: "Улучшение воронки найма через исследования.",
+        tag: null,
+        zone: "Бар «Goja»",
+        section: "Hiring",
       },
       {
-        start: new Date("February 10, 2023 17:00"),
-        end: new Date("February 10, 2023 18:00"),
-        name: "Волшебные пилюли от выгорания",
+        start: new Date("2024-10-26T14:00:00"),
+        end: new Date("2024-10-26T14:50:00"),
+        name: "Карьера в IT",
         speaker: [
           {
-            name: "Евгения Петцер",
-            desc: "HR BP/Руководитель подбора 'Передовые платежные решения'",
-          },
+            name: "Наталия Лебедева", desc: "HRD Habr"
+          }
         ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Софт",
+        desc: "Публичность, менторство и лучшие офферы.",
+        tag: null,
+        zone: "Бар «Goja»",
+        section: "Hiring",
       },
-    ],
+      {
+        start: new Date("2024-10-26T16:00:00"),
+        end: new Date("2024-10-26T16:50:00"),
+        name: "Мастер-класс по собеседованиям",
+        speaker: [
+          {
+            name: "Анна Афонина", desc: "Founder ProIT Fest, HiPoHeads"
+          }
+        ],
+        desc: "Углубление в двусторонние собеседования.",
+        tag: null,
+        zone: "Бар «Goja»",
+        section: "Hiring",
+      },
+      {
+        start: new Date("2024-10-26T17:00:00"),
+        end: new Date("2024-10-26T17:50:00"),
+        name: "Баттл «Офис vs Удаленка»",
+        speaker: [
+          {
+            name: "Анна Афонина", desc: "Founder ProIT Fest, HiPoHeads"
+          },
+          {
+            name: "Мика Шейхова", desc: "Head of Recruietment НСИС"
+          },
+          {
+            name: "Руслан Сафин", desc: "Технический директор Byndyusoft"
+          }
+        ],
+        desc: "Дискуссия о формах работы.",
+        tag: null,
+        zone: "Бар «Goja»",
+        section: "Hiring",
+      }
+    ]
   },
   {
-    zone: "Игровая Зона",
-    section: "Help Хард",
-    color: "Moccasin",
+    zone: "Бар «Vse Doma»",
+    section: "Network",
+    color: null,
     lection: [
       {
-        start: new Date("February 10, 2023 12:00"),
-        end: new Date("February 10, 2023 13:00"),
-        name: "Мастер класс: Эмоциональный интеллект",
-        speaker: [{ name: "Александра Анисимова", desc: "Психолог" }],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая Зона",
-        section: "Help Хард",
-      },
-      {
-        start: new Date("February 10, 2023 13:00"),
-        end: new Date("February 10, 2023 14:00"),
-        name: "Мастер-класс: инструменты ИИ в QA - миф или реальность?",
+        start: new Date("2024-10-26T12:00:00"),
+        end: new Date("2024-10-26T13:00:00"),
+        name: "Нетворкинг",
         speaker: [
           {
-            name: "Иван Морщагин",
-            desc: "IT-консультант, трекер, руководитель отдела тестирования (E-legion)",
-          },
+            name: "Лидия Рогова", desc: "«God of Networking»"
+          }
         ],
-        desc: null,
-        tag: "QA",
-        zone: "Игровая Зона",
-        section: "Help Хард",
+        desc: "От теории к практике.",
+        tag: null,
+        zone: "Бар «Vse Doma»",
+        section: "Network",
       },
       {
-        start: new Date("February 10, 2023 14:00"),
-        end: new Date("February 10, 2023 15:00"),
-        name: "Мастер-класс: программирование на Go: (не)травматичный рефакторинг",
-        speaker: [{ name: "Даниил Подольский", desc: "ЯДРО" }],
-        desc: null,
-        tag: "Backend",
-        zone: "Игровая Зона",
-        section: "Help Хард",
-      },
-      {
-        start: new Date("February 10, 2023 15:00"),
-        end: new Date("February 10, 2023 16:00"),
-        name: "Мастер-класс: Модули языковых моделей. Делегирование задач на множество моделей",
+        start: new Date("2024-10-26T13:00:00"),
+        end: new Date("2024-10-26T13:50:00"),
+        name: "Презентация себя",
         speaker: [
           {
-            name: "Артур Сапрыкин",
-            desc: "Автор и преподаватель курсов, эксперт, исследователь в области искусственного интеллекта",
-          },
+            name: "Дмитрий Филиппов", desc: "Product, delivery, тренер"
+          }
         ],
-        desc: null,
-        tag: "DataScience",
-        zone: "Игровая Зона",
-        section: "Help Хард",
+        desc: "Как успешно себя представить.",
+        tag: null,
+        zone: "Бар «Vse Doma»",
+        section: "Network",
       },
       {
-        start: new Date("February 10, 2023 16:00"),
-        end: new Date("February 10, 2023 17:00"),
-        name: "Менторинг для iOS",
-        speaker: [{ name: "Екатерина Батеева", desc: "iOS OK" }],
-        desc: null,
-        tag: "iOS",
-        zone: "Игровая Зона",
-        section: "Help Хард",
-      },
-      {
-        start: new Date("February 10, 2023 17:00"),
-        end: new Date("February 10, 2023 18:00"),
-        name: "Собеседование Front",
+        start: new Date("2024-10-26T14:00:00"),
+        end: new Date("2024-10-26T14:50:00"),
+        name: "Sales Partnership",
         speaker: [
           {
-            name: "Бабин Анатолий",
-            desc: "Front-end разработчик и наставник по поиску работы. Ex: X5, Alfa, Yandex",
-          },
+            name: "Алексей Николаев", desc: "Руководитель команд b2b продаж"
+          }
         ],
-        desc: null,
-        tag: "Frontend",
-        zone: "Игровая Зона",
-        section: "Help Хард",
-      },
-    ],
-  },
-  {
-    zone: "Brand Room",
-    section: "GameDev",
-    color: "HotPink",
-    lection: [
-      {
-        start: new Date("February 10, 2023 12:00"),
-        end: new Date("February 10, 2023 13:00"),
-        name: "Мастер-класс по озвучке игр.",
-        speaker: [
-          {
-            name: "Павел Бирюков",
-            desc: "Lead Sound designer OneWerriorStudio",
-          },
-        ],
-        desc: null,
-        tag: "GameDev",
-        zone: "Brand Room",
-        section: "GameDev",
+        desc: "Эффективные подходы к продажам.",
+        tag: null,
+        zone: "Бар «Vse Doma»",
+        section: "Network",
       },
       {
-        start: new Date("February 10, 2023 13:00"),
-        end: new Date("February 10, 2023 14:00"),
-        name: "Мастер-класс по созданию персонажа нарратив+арт.",
+        start: new Date("2024-10-26T16:00:00"),
+        end: new Date("2024-10-26T16:50:00"),
+        name: "Цифровая эволюция нетворкинга",
         speaker: [
           {
-            name: "Вероника Акулич",
-            desc: "Арт-директор, Co-Founder студии  VistorySoft",
-          },
-          {
-            name: "Светлана Яковлева",
-            desc: "Ведущий нарративный дизайнер в 13 Novels, преподаватель школы игровых сценаристов 'Нарраторика'",
-          },
+            name: "Максим Гиленко", desc: "IT Product Owner SuperJob"
+          }
         ],
-        desc: null,
-        tag: "GameDev",
-        zone: "Brand Room",
-        section: "GameDev",
+        desc: "От стереотипов до вызовов будущего.",
+        tag: null,
+        zone: "Бар «Vse Doma»",
+        section: "Network",
       },
       {
-        start: new Date("February 10, 2023 14:00"),
-        end: new Date("February 10, 2023 15:00"),
-        name: 'Батл "Мобильные vs ПК игры".',
+        start: new Date("2024-10-26T17:00:00"),
+        end: new Date("2024-10-26T17:50:00"),
+        name: "Социальный капитал",
         speaker: [
           {
-            name: "Ян Байнами",
-            desc: "Founder bainami.games",
+            name: "Эрик Бурыгин", desc: "Team Lead QA Яндекс"
           },
           {
-            name: "Аристарх Абрамовский",
-            desc: "UnityDev GamePush",
+            name: "Арина Балерина", desc: "независимый эксперт"
           },
           {
-            name: "Соня Ковальская",
-            desc: "Лид-артист Crazy Barbarian Games",
-          },
-          {
-            name: "Никита Ветер",
-            desc: "Гейм директор Триосказ",
-          },
-          {
-            name: "Константин Кондюков",
-            desc: "Основатель Sumo Tatami",
-          },
-          {
-            name: "Олег Константинов",
-            desc: "Отец-основатель Beard Games Studio",
-          },
-          {
-            name: "Евгения Суравская",
-            desc: "Team lead/narrative designer Flying bird studio",
-          },
+            name: "Филипп Дельгядо", desc: "архитектор в lekton.io"
+          }
         ],
-        desc: null,
-        tag: "iOS | Backend | GameDev",
-        zone: "Brand Room",
-        section: "GameDev",
-      },
-      {
-        start: new Date("February 10, 2023 15:00"),
-        end: new Date("February 10, 2023 16:00"),
-        name: 'Круглый стол "Поддержка инди. Открытые возможности сегодня".',
-        speaker: [
-          {
-            name: "Владимир Вареник",
-            desc: "Основатель проекта Indie GO",
-          },
-          {
-            name: "Анна Козлова",
-            desc: 'Исполнительный директор ООО "ИГРОПРОМ"',
-          },
-          {
-            name: "Дмитрий Гаврилов",
-            desc: "Продакт-менеджер Indie Up",
-          },
-          {
-            name: "Константин Кондюков",
-            desc: "Основатель Sumo Tatami",
-          },
-        ],
-        desc: null,
-        tag: "GameDev",
-        zone: "Brand Room",
-        section: "GameDev",
-      },
-      {
-        start: new Date("February 10, 2023 16:00"),
-        end: new Date("February 10, 2023 17:00"),
-        name: "Мастер-класс ревью кода.",
-        speaker: [
-          {
-            name: "Андрей Карпов",
-            desc: "DevRel PVS-Studio",
-          },
-        ],
-        desc: null,
-        tag: "GameDev",
-        zone: "Brand Room",
-        section: "GameDev",
-      },
-      {
-        start: new Date("February 10, 2023 17:00"),
-        end: new Date("February 10, 2023 18:00"),
-        name: "Разбор игр с точки зрения психологии игрока.",
-        speaker: [
-          {
-            name: "Евгений Идзиковский",
-            desc: "IT психолог",
-          },
-        ],
-        desc: null,
-        tag: "GameDev",
-        zone: "Brand Room",
-        section: "GameDev",
-      },
-    ],
-  },
-  {
-    zone: "Каминный зал",
-    section: "Боль",
-    color: "LightSkyBlue",
-    lection: [
-      {
-        start: new Date("February 10, 2023 13:00"),
-        end: new Date("February 10, 2023 14:00"),
-        name: "Боли ЗП",
-        speaker: [
-          { name: "Анна Афонина", desc: "Founder @HiPoHeads" },
-          { name: "Евгений Идзиковский", desc: "IT-психолог, психотерапевт" },
-          { name: "Александр Шишенин", desc: "CEO/Co-Founder LLC JayJoy" },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Каминный зал",
-        section: "Боль",
-      },
-      {
-        start: new Date("February 10, 2023 14:00"),
-        end: new Date("February 10, 2023 15:00"),
-        name: "Боли фундаментальных знаний",
-        speaker: [
-          {
-            name: "Антон Жбанков",
-            desc: "Независимый эксперт, Архитектор по ИТ инфраструктуре",
-          },
-          { name: "Карина Хашина", desc: "Delivery manager, Билайн" },
-          {
-            name: "Артур Сапрыкин",
-            desc: "Предприниматель, эксперт и исследователь в области искусственного интеллекта",
-          },
-          { name: "Ксения Сидорова", desc: "Инженер виртуализации" },
-          { name: "Анжелика Максимова", desc: "Ведущий инженер РСХБ-Интех" },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Каминный зал",
-        section: "Боль",
-      },
-      {
-        start: new Date("February 10, 2023 15:00"),
-        end: new Date("February 10, 2023 16:00"),
-        name: "Боли качества кода",
-        speaker: [
-          { name: "Андрей Карпов", desc: "DevRel PVS-Studio" },
-          { name: "Николай Хитров", desc: "Tech Lead Точка Банк" },
-          { name: "Валентин Ульянов", desc: "Backend developer, open source" },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Каминный зал",
-        section: "Боль",
-      },
-      {
-        start: new Date("February 10, 2023 16:00"),
-        end: new Date("February 10, 2023 17:00"),
-        name: "Боли с клиентами в B2B",
-        speaker: [
-          { name: "Роман Саркисов", desc: "CEO Development Service" },
-          {
-            name: "Дмитрий Филиппов",
-            desc: "Delivery manager/Soft Skill trainer Kupsilla",
-          },
-          {
-            name: "Галина Лебедова",
-            desc: "Руководитель В2В направления, Яндекс Практикум",
-          },
-          { name: "Василий Алексуткин", desc: "CPO Газпром ИД" },
-          { name: "Иван Ярославцев", desc: "CEO Alto" },
-        ],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Каминный зал",
-        section: "Боль",
-      },
-      {
-        start: new Date("February 10, 2023 17:00"),
-        end: new Date("February 10, 2023 18:00"),
-        name: "Боль взаимодействия между отделами",
-        speaker: [
-          { name: "Яна Савельева", desc: "Senior UI/UX ИЦ ИАС" },
-          { name: "Александр Шишенин", desc: "CEO/Co-Founder LLC JayJoy" },
-          { name: "Дмитрий Тихонов", desc: "Ведущий инженер DevOps, Иннотех" },
-          { name: "Иван Морщагин", desc: "Head of QA E-legion" },
-          { name: "Кира Жесткова", desc: "CMO/Ментор/Коуч, exSkyEng" },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Каминный зал",
-        section: "Боль",
-      },
-    ],
-  },
+        desc: "Эффективное использование социальных связей.",
+        tag: null,
+        zone: "Бар «Vse Doma»",
+        section: "Network",
+      }
+    ]
+  }
 ];
 
-export const sunSchedule = [
+export const goGlobalSchedule = [
   {
-    zone: "Music hall",
-    section: "Python",
-    color: "Gainsboro",
+    zone: "Бар «Мачты»",
+    section: "GoGlobal",
+    color: null,
     lection: [
       {
-        start: new Date("February 11, 2023 12:00"),
-        end: new Date("February 11, 2023 13:00"),
-        name: "Python всем!",
-        speaker: [
-          { name: "Александр Кириллов", desc: "CTO @ Evrone" },
-          { name: "Сергей Тимченко", desc: "Lead QA @ Positive" },
-          { name: "Демид Гаибов", desc: "ML-разработчик @ Альфа-Банк" },
-          { name: "Евгений Блинов", desc: "Python-разработчик @VK" },
-        ],
-        desc: "Дискуссия с участием DevOps, QA, бэкенд-разработчика и ML'щика на тему хорошего и плохого в Питона\nМодератор: Денис Аникин (коммьюнити лид в Райффайзен-банке)",
-        tag: "Для всех",
-        zone: "Music hall",
-        section: "Python",
-      },
-      {
-        start: new Date("February 11, 2023 13:00"),
-        end: new Date("February 11, 2023 14:00"),
-        name: "Мастер класс по языковым моделям — создай себе помощника",
-        speaker: [
-          { name: "Сениченкова Яна", desc: "Junior Data Scientist @Astera" },
-          { name: "Голод Денис", desc: "DevOps Engineer @Astera" },
-        ],
-        desc: null,
-        tag: "QA",
-        zone: "Music hall",
-        section: "Python",
-      },
-      {
-        start: new Date("February 11, 2023 14:00"),
-        end: new Date("February 11, 2023 15:00"),
-        name: "Плохой собес",
+        start: new Date("2024-10-26T12:00:00"),
+        end: new Date("2024-10-26T12:50:00"),
+        name: "Прожарка стартапов",
         speaker: [
           {
-            name: "Денис Аникин",
-            desc: "Коммьюнити лид в Райффайзен-банке",
-          },
-          { name: "Бейлак Алиев", desc: "Райффайзен-банк, коммьюнити лид" },
-          { name: "Шагит Зиганшин", desc: null },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Music hall",
-        section: "Python",
-      },
-      {
-        start: new Date("February 11, 2023 15:00"),
-        end: new Date("February 11, 2023 16:00"),
-        name: "«Случайная преза»",
-        speaker: [
-          { name: "Сергей Яхницкий", desc: "Яндекс.Такси, Python-разработчик" },
-          { name: "Николай Марков", desc: "Data Platform Lead, Altenar" },
-          { name: "Денис Аникин", desc: "Коммьюнити лид в Райффайзен-банке" },
-        ],
-        desc: null,
-        tag: "Backend",
-        zone: "Music hall",
-        section: "Python",
-      },
-      {
-        start: new Date("February 11, 2023 16:00"),
-        end: new Date("February 11, 2023 17:00"),
-        name: "Стэндап «Проблемы Python»",
-        speaker: [
-          { name: "Николай Хитров", desc: "Ведущий, Техлид @Точка-банк" },
-          { name: "Евгений Афонасьев", desc: "Тимлид Тинькофф" },
-          { name: "Ольга Емельянова", desc: null },
-        ],
-        desc: null,
-        tag: "Backend",
-        zone: "Music hall",
-        section: "Python",
-      },
-      {
-        start: new Date("February 11, 2023 17:00"),
-        end: new Date("February 11, 2023 18:00"),
-        name: "Спортивные дебаты",
-        speaker: [
-          { name: "Юрий Маркин", desc: "Разработчик, X5" },
-          { name: "Максим Столпасов", desc: "Тимлид, X5" },
-          { name: "Александр Ковалёв", desc: "Go Teamlead, IVA Technologies" },
-          { name: "Пётр Ермаков", desc: "ML Brand Director, Яндекс" },
-        ],
-        desc: null,
-        tag: "Backend",
-        zone: "Music hall",
-        section: "Python",
-      },
-    ],
-  },
-  {
-    zone: "Кофейня",
-    section: "Network",
-    color: "Plum",
-    lection: [
-      {
-        start: new Date("February 11, 2023 12:00"),
-        end: new Date("February 11, 2023 13:00"),
-        name: "IT Business Dating. Круг знакомства",
-        speaker: [],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Кофейня",
-        section: "Network",
-      },
-      {
-        start: new Date("February 11, 2023 13:00"),
-        end: new Date("February 11, 2023 14:00"),
-        name: "IT Business Dating, one-one встречи",
-        speaker: [],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Кофейня",
-        section: "Network",
-      },
-      {
-        start: new Date("February 11, 2023 14:00"),
-        end: new Date("February 11, 2023 15:00"),
-        name: "IT Business Dating, one-one встречи",
-        speaker: [],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Кофейня",
-        section: "Network",
-      },
-      {
-        start: new Date("February 11, 2023 15:00"),
-        end: new Date("February 11, 2023 16:00"),
-        name: "IT Expert Dating. Круг знакомства",
-        speaker: [],
-        desc: null,
-        tag: "Для всех",
-        zone: "Кофейня",
-        section: "Network",
-      },
-      {
-        start: new Date("February 11, 2023 16:00"),
-        end: new Date("February 11, 2023 17:00"),
-        name: "IT Expert Dating, one-one с менторами",
-        speaker: [],
-        desc: null,
-        tag: "Для всех",
-        zone: "Кофейня",
-        section: "Network",
-      },
-      {
-        start: new Date("February 11, 2023 17:00"),
-        end: new Date("February 11, 2023 18:00"),
-        name: "IT Expert Dating, one-one с менторами",
-        speaker: [],
-        desc: null,
-        tag: "Для всех",
-        zone: "Кофейня",
-        section: "Network",
-      },
-    ],
-  },
-  {
-    zone: "Brand Room",
-    section: "Vision",
-    color: "Khaki",
-    lection: [
-      {
-        start: new Date("February 11, 2023 12:00"),
-        end: new Date("February 11, 2023 13:00"),
-        name: "Business-review",
-        speaker: [{ name: "Дмитрий Торшин", desc: "Founder UpLift.Club" }],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-      {
-        start: new Date("February 11, 2023 13:00"),
-        end: new Date("February 11, 2023 15:00"),
-        name: "От Галлюцинаций к Достижениям: От мифов к стратегии развития Бизнеса",
-        speaker: [
-          { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
-        ],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-      {
-        start: new Date("February 11, 2023 15:00"),
-        end: new Date("February 11, 2023 15:30"),
-        name: "Дизайн-отдел на подряде",
-        speaker: [
-          { name: "Конаков Артем", desc: "СЕО студии интерфейсов UXART" },
-        ],
-        desc: null,
-        tag: "Дизайн",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-      {
-        start: new Date("February 11, 2023 15:30"),
-        end: new Date("February 11, 2023 16:00"),
-        name: "Design+Front=Love. Q&A сессия со спикерами",
-        speaker: [
-          { name: "Зар Захаров", desc: "Ведущий разработчик VK Музыка" },
-          {
-            name: "Александр Каменяр",
-            desc: "Product Design Director Trading View",
-          },
-          { name: "Петр Жемчугов", desc: "Head of Front SberHeals" },
-        ],
-        desc: null,
-        tag: "Frontend",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-      {
-        start: new Date("February 11, 2023 15:30"),
-        end: new Date("February 11, 2023 16:00"),
-        name: "Код, дизайн, UX: роль исследований в триединстве продукта и как они меняют правила игры",
-        speaker: [
-          { name: "Анна Котельникова", desc: "UX-researcher Lamoda Tech" },
-        ],
-        desc: null,
-        tag: "Дизайн",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-      {
-        start: new Date("February 11, 2023 16:30"),
-        end: new Date("February 11, 2023 17:00"),
-        name: "Осознанность против метрик",
-        speaker: [{ name: "Лиза Пескова", desc: "Product Lead Дзен" }],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-      {
-        start: new Date("February 11, 2023 17:00"),
-        end: new Date("February 11, 2023 18:00"),
-        name: "Интерактив: Запуск продукта, основанный на Диснеевском подходе",
-        speaker: [
-          { name: "Анастасия Козлова", desc: "Marketing Product Manager" },
-        ],
-        desc: null,
-        tag: "Менеджмент",
-        zone: "Brand Room",
-        section: "Vision",
-      },
-    ],
-  },
-  {
-    zone: "Игровая зона",
-    section: "System Design",
-    color: "PaleGreen",
-    lection: [
-      {
-        start: new Date("February 11, 2023 12:00"),
-        end: new Date("February 11, 2023 13:00"),
-        name: "Мастер-класс 'Нефункциональные требования и ограничения'",
-        speaker: [
-          { name: "Филипп Дельгядо", desc: "lekton.io" },
-          { name: "Даниил Подольский", desc: "Golang evangelist" },
-        ],
-        desc: null,
-        tag: "Backend",
-        zone: "Игровая зона",
-        section: "System Design",
-      },
-      {
-        start: new Date("February 11, 2023 13:00"),
-        end: new Date("February 11, 2023 14:00"),
-        name: "Монолиты-vs-микросервисы",
-        speaker: [
-          { name: "Филипп Дельгядо", desc: "lekton.io" },
-          { name: "Даниил Подольский", desc: "Golang evangelist" },
-        ],
-        desc: null,
-        tag: "Backend",
-        zone: "Игровая зона",
-        section: "System Design",
-      },
-      {
-        start: new Date("February 11, 2023 14:00"),
-        end: new Date("February 11, 2023 17:00"),
-        name: "Игра 'Архитектурные Ката'",
-        speaker: [
-          { name: "Глеб Гончаров", desc: "Unit Lead, Сбер" },
-          { name: "Никита Бабушкин", desc: "Staff Engineer, Сбер" },
-          { name: "Анастасия Бондарович", desc: "Team Lead, Сбер" },
-        ],
-        desc: null,
-        tag: "Для всех",
-        zone: "Игровая зона",
-        section: "System Design",
-      },
-      {
-        start: new Date("February 11, 2023 17:00"),
-        end: new Date("February 11, 2023 18:00"),
-        name: "Публичные консультации по Архитектуре от экспертов",
-        speaker: [
-          { name: "Филипп Дельгядо", desc: "lekton.io" },
-          { name: "Даниил Подольский", desc: "Golang evangelist" },
-        ],
-        desc: null,
-        tag: "Backend",
-        zone: "Игровая зона",
-        section: "System Design",
-      },
-    ],
-  },
-  {
-    zone: "Каминный Зал",
-    section: "BDSM",
-    color: "MediumAquamarine",
-    lection: [
-      {
-        start: new Date("February 11, 2023 12:00"),
-        end: new Date("February 11, 2023 13:00"),
-        name: "Где мои бонусы?",
-        speaker: [{ name: "Евгений Идзиковский", desc: "IT психолог" }],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Каминный Зал",
-        section: "BDSM",
-      },
-      {
-        start: new Date("February 11, 2023 13:00"),
-        end: new Date("February 11, 2023 14:00"),
-        name: "Цифровизация результатов посещения ивента",
-        speaker: [
-          { name: "Андрей Дмитриев", desc: "JUG" },
-          { name: "Екатерина Куликова", desc: "Стачка" },
-          { name: "Лидия Рогова", desc: "exBlockshow" },
-          { name: "Адель Макашева", desc: "DevRel Cloud.ru" },
-        ],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Каминный Зал",
-        section: "BDSM",
-      },
-      {
-        start: new Date("February 11, 2023 14:00"),
-        end: new Date("February 11, 2023 15:00"),
-        name: "BDSM между отделами",
-        speaker: [
-          { name: "Кира Жесткова", desc: "CMO exSkyEng" },
-          {
-            name: "Евгений Боровков",
-            desc: "Коммерческий директор BotCreators",
-          },
-        ],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Каминный Зал",
-        section: "BDSM",
-      },
-      {
-        start: new Date("February 11, 2023 15:00"),
-        end: new Date("February 11, 2023 17:00"),
-        name: "Игра «Поймай волну» на развитие продуктового мышления",
-        speaker: [
-          { name: "Дмитрий Безуглый", desc: "Founder Master-Strategy" },
-        ],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Каминный Зал",
-        section: "BDSM",
-      },
-      {
-        start: new Date("February 11, 2023 17:00"),
-        end: new Date("February 11, 2023 18:00"),
-        name: "ЧГК по нестандартным задачам, которые приходят в отдел аналитики",
-        speaker: [{ name: "Анна Горбатенко", desc: null }],
-        desc: null,
-        tag: "Бизнес",
-        zone: "Каминный Зал",
-        section: "BDSM",
-      },
-    ],
-  },
-  {
-    zone: "Библиотека",
-    section: "Sturtup",
-    color: "Lavender",
-    lection: [
-      {
-        start: new Date("February 11, 2023 12:00"),
-        end: new Date("February 11, 2023 13:00"),
-        name: "Питчи стартапов перед экспертами секции",
-        speaker: [],
-        desc: "Ментор и скаут проектов, инвестор, технический директор, анализ рынка и конкурентов, маркетинг и инвестиции,gamedev/bizdev, питч, бизнес трекер, юристы, hr.",
-        tag: "startup",
-        zone: "Библиотека",
-        section: "Sturtup",
-      },
-      {
-        start: new Date("February 11, 2023 13:00"),
-        end: new Date("February 11, 2023 14:00"),
-        name: "Мастер-класс по подготовке презентации для инвесторов",
-        speaker: [
-          {
-            name: "Вячеслав Дерновский",
-            desc: "Ментор и скаут проектов, инвестор",
-          },
-          { name: "Тимур Венецианов", desc: "COO SoftwareLead" },
-          { name: "Виталий Янко", desc: "Управляющий партнер SoftwareLead" },
-          {
-            name: "Анна Соловей",
-            desc: "Языковой коуч бизнес-английского и софт скиллов",
-          },
-        ],
-        desc: null,
-        tag: "startup",
-        zone: "Библиотека",
-        section: "Sturtup",
-      },
-      {
-        start: new Date("February 11, 2023 14:00"),
-        end: new Date("February 11, 2023 16:00"),
-        name: "Связь стартапов с экспертами в свободном формате",
-        speaker: [
-          { name: "Александр Шишенин", desc: "Генеральный директор JayJoy" },
-          {
-            name: "Анна Соловей",
-            desc: "Языковой коуч бизнес-английского и софт скиллов",
+            name: "Елена Попова", desc: "MTS Startup Hub"
           },
           {
-            name: "Владимир Торопецкий",
-            desc: "Директор по продуктам в Ростелеком, бизнес трекер, карьерный консультант",
+            name: "Виталий Янко", desc: "эксперт"
           },
           {
-            name: "Вячеслав Гареев",
-            desc: "Советник юридической фирмы Nextons",
+            name: "Максим Онищенко", desc: "эксперт"
           },
           {
-            name: "Рузанна Ахобекова",
-            desc: "Советник юридической фирмы Nextons",
+            name: "Константин Кондюков", desc: "эксперт"
           },
           {
-            name: "Вячеслав Дерновский",
-            desc: "Ментор и скаут проектов, инвестор",
-          },
-          { name: "Михаил Кечинов", desc: "CEO REES46" },
-          { name: "Тимур Венецианов", desc: "COO SoftwareLead" },
-          { name: "Виталий Янко", desc: "Управляющий партнер SoftwareLead" },
-          { name: "Анна Афонина", desc: "Founder КА HiPoHeads" },
+            name: "Елена Климшина", desc: "эксперт"
+          }
         ],
-        desc: "Доработка питчей и презентаций с экспертами, решение узкопрофильных вопросов по каждому проекту",
-        tag: "startup",
-        zone: "Библиотека",
-        section: "Sturtup",
+        desc: "Обсуждение перспектив стартапов.",
+        tag: null,
+        zone: "Бар «Мачты»",
+        section: "GoGlobal",
       },
       {
-        start: new Date("February 11, 2023 16:00"),
-        end: new Date("February 11, 2023 17:00"),
-        name: "Интерактив — прокачка софт-скилов за 15 минут",
+        start: new Date("2024-10-26T13:00:00"),
+        end: new Date("2024-10-26T13:50:00"),
+        name: "Командообразование",
         speaker: [
           {
-            name: "Анна Соловей",
-            desc: "Языковой коуч бизнес-английского и софт скиллов",
+            name: "Botique", desc: "Участник"
           },
+          {
+            name: "Pruffme", desc: "Участник"
+          },
+          {
+            name: "PharmHub", desc: "Участник"
+          }
         ],
-        desc: "Доработка питчей и презентаций без экспертов",
-        tag: "startup",
-        zone: "Библиотека",
-        section: "Sturtup",
+        desc: "Интерактив вокруг идеи стартапов.",
+        tag: null,
+        zone: "Бар «Мачты»",
+        section: "GoGlobal",
       },
       {
-        start: new Date("February 11, 2023 17:00"),
-        end: new Date("February 11, 2023 18:00"),
-        name: "Питчи стартапов перед экспертами секции и аудиторией",
-        speaker: [],
-        desc: null,
-        tag: "startup",
-        zone: "Библиотека",
-        section: "Sturtup",
+        start: new Date("2024-10-26T14:00:00"),
+        end: new Date("2024-10-26T14:50:00"),
+        name: "English Speaking Club",
+        speaker: [
+          {
+            name: "Юрий Башенкер", desc: "English Teacher, SEE Official"
+          }
+        ],
+        desc: "Обсуждение в формате клуба.",
+        tag: null,
+        zone: "Бар «Мачты»",
+        section: "GoGlobal",
       },
-    ],
-  },
+      {
+        start: new Date("2024-10-26T16:00:00"),
+        end: new Date("2024-10-26T16:50:00"),
+        name: "Q&A Session",
+        speaker: [
+          {
+            name: "Chad Hower", desc: "exMicrosoft Regional Director"
+          }
+        ],
+        desc: "Ответы на вопросы участников.",
+        tag: null,
+        zone: "Бар «Мачты»",
+        section: "GoGlobal",
+      },
+      {
+        start: new Date("2024-10-26T17:00:00"),
+        end: new Date("2024-10-26T17:50:00"),
+        name: "Итоги ИТ-экспорта",
+        speaker: [
+          {
+            name: "Виталий Янко", desc: "Управляющий партнер консалтинга softwarelead.pro"
+          },
+          {
+            name: "Paul Karol", desc: "Gibrelations"
+          }
+        ],
+        desc: "Кейсы роста и ошибки.",
+        tag: null,
+        zone: "Бар «Мачты»",
+        section: "GoGlobal",
+      }
+    ]
+  }
 ];
