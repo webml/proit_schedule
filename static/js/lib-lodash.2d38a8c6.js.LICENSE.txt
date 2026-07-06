@@ -1,5 +1,7 @@
 /*! ./identity */
 
+/*! ./isFunction */
+
 /*! ./_assocIndexOf */
 
 /*! ./_copySymbolsIn */
@@ -22,6 +24,8 @@
 
 /*! ./isObject */
 
+/*! ./_LazyWrapper */
+
 /*! ./_copyObject */
 
 /*! ./_trimmedEndIndex */
@@ -33,8 +37,6 @@
 /*! ./_baseFindIndex */
 
 /*! ./_arrayMap */
-
-/*! ./_LazyWrapper */
 
 /*! ./_realNames */
 
@@ -406,11 +408,11 @@
 
 /*! ./_basePick */
 
-/*! ./_getValue */
-
 /*! ./_parent */
 
 /*! ./_setToString */
+
+/*! ./_getValue */
 
 /*! ./_nativeCreate */
 
@@ -484,8 +486,6 @@
 
 /*! ./_assignValue */
 
-/*! ./toString */
-
 /*! ./_flatRest */
 
 /*! ./isArray */
@@ -518,9 +518,7 @@
 
 /*! ./_listCacheHas */
 
-/*! ./pickBy */
-
-/*! ./_baseTrim */
+/*! ./_baseLodash */
 
 /*! ./_arrayEach */
 
@@ -528,13 +526,17 @@
 
 /*! ./_Symbol */
 
-/*! ./_baseLodash */
+/*! ./_baseTrim */
+
+/*! ./pickBy */
 
 /*! ./_composeArgsRight */
 
 /*! ./_initCloneArray */
 
 /*! ./isObject */
+
+/*! ./toString */
 
 /*! ./_memoizeCapped */
 
@@ -662,13 +664,11 @@
 
 /*! ./_arrayLikeKeys */
 
-/*! ./_baseUnset */
-
 /*! ./_baseIteratee */
 
-/*! ./_basePropertyDeep */
-
 /*! ./toString */
+
+/*! ./_basePropertyDeep */
 
 /*! ./_copyArray */
 
@@ -685,6 +685,8 @@
 /*! ./_matchesStrictComparable */
 
 /*! ./_isPrototype */
+
+/*! ./_baseUnset */
 
 /*! ./isLength */
 
@@ -800,16 +802,14 @@
 
 /*! ./_getMapData */
 
+/*! ./isObjectLike */
+
 /*! ./_freeGlobal */
 
 /*! ./_root */
 
 /*! ./_LazyWrapper */
 
-/*! ./isObjectLike */
-
 /*! ./_baseLodash */
-
-/*! ./isFunction */
 
 /*! ./_getAllKeysIn */
