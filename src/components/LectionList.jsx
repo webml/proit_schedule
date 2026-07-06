@@ -7,22 +7,22 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
     setOpen(false);
   };
 
-  const getDay = (date) => {
-    let day;
-    if (typeof date === "string") {
-      day = new Date(date).getDay();
-    } else {
-      day = date.getDay();
-    }
-    return day === 5 ? "Суббота" : "Воскресенье";
-  };
+  // const getDay = (date) => {
+  //   let day;
+  //   if (typeof date === "string") {
+  //     day = new Date(date).getDay();
+  //   } else {
+  //     day = date.getDay();
+  //   }
+  //   return day === 5 ? "Суббота" : "Воскресенье";
+  // };
 
   let sat, sun;
 
-  if (zone === "Избранные") {
-    sat = lections?.filter((lec) => getDay(lec.start) === "Суббота");
-    sun = lections?.filter((lec) => getDay(lec.start) === "Воскресенье");
-  }
+  // if (zone === "Избранные") {
+  //   sat = lections?.filter((lec) => getDay(lec.start) === "Суббота");
+  //   sun = lections?.filter((lec) => getDay(lec.start) === "Воскресенье");
+  // }
 
   return (
     <Drawer
@@ -43,8 +43,9 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
       <Drawer.Body style={{ margin: 0, padding: "0 8px 16px" }}>
         {zone === "Избранные" ? (
           <>
-            {(sat && sun && sat.length === 0 && sun.length === 0) ||
-            (!sat && !sun) ? (
+            {/* {(sat && sun && sat.length === 0 && sun.length === 0) ||
+            (!sat && !sun) ? ( */}
+            {lections?.length === 0 ? (
               <div style={{ padding: "16px" }}>
                 <h4>Вы еще не добавили лекции</h4>
                 <p>
@@ -57,7 +58,7 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
               </div>
             ) : (
               <>
-                {sat && sat.length !== 0 && (
+                {/* {sat && sat.length !== 0 && (
                   <>
                     <h4>Суббота</h4>
                     <ScheduleList lection={sat} zone={zone} />
@@ -68,7 +69,9 @@ export const LectionList = ({ open, setOpen, lections, zone }) => {
                     <h4>Воскресенье</h4>
                     <ScheduleList lection={sun} zone={zone} />
                   </>
-                )}
+                )} */}
+                <h4>Суббота</h4>
+                <ScheduleList lection={lections} zone={zone} />
               </>
             )}
           </>

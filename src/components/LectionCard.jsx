@@ -15,27 +15,27 @@ export const LectionCard = ({ lection, zone }) => {
     }
   }
 
-  const getHours = (date) => {
-    if (typeof date === "string") {
-      return new Date(date).getHours();
-    } else {
-      return date.getHours();
-    }
-  };
+  // const getHours = (date) => {
+  //   if (typeof date === "string") {
+  //     return new Date(date).getHours();
+  //   } else {
+  //     return date.getHours();
+  //   }
+  // };
 
-  const getMinutes = (date) => {
-    let min;
-    if (typeof date === "string") {
-      min = new Date(date).getMinutes();
-    } else {
-      min = date.getMinutes();
-    }
-    return min === 0 ? "00" : min;
-  };
+  // const getMinutes = (date) => {
+  //   let min;
+  //   if (typeof date === "string") {
+  //     min = new Date(date).getMinutes();
+  //   } else {
+  //     min = date.getMinutes();
+  //   }
+  //   return min === 0 ? "00" : min;
+  // };
 
-  const getTime = (date) => {
-    return `${getHours(date)}:${getMinutes(date)}`;
-  };
+  // const getTime = (date) => {
+  //   return `${getHours(date)}:${getMinutes(date)}`;
+  // };
 
   const getColor = (key) => {
     if (key === null || key.length > 10) {
@@ -101,7 +101,8 @@ export const LectionCard = ({ lection, zone }) => {
           </div>
         </div>
         <p style={{ padding: 0, margin: 0, marginRight: "8px" }}>
-          {getTime(lection.start)}
+          {/* {getTime(lection.start)} */}
+          {lection.start}
         </p>
       </div>
     </div>

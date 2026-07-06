@@ -1,6 +1,6 @@
 import "rsuite/dist/rsuite.min.css";
 import "./styles.css";
-import { ButtonGroup, Button, IconButton } from "rsuite";
+import { ButtonGroup, Button, IconButton, Header } from "rsuite";
 import { useState } from "react";
 import { satSchedule, sunSchedule } from "./schedule_data";
 import { LectionList } from "./components/LectionList";
@@ -19,15 +19,13 @@ const App = () => {
 
   const mode = {
     sat: satSchedule,
-    sun: sunSchedule,
+    // sun: sunSchedule,
   };
 
   const handelLectionListClick = () => {
     const lections = JSON.parse(localStorage.getItem("userLections"));
 
     const sorted = lections?.sort((a, b) => (a.start > b.start ? 1 : -1));
-
-    console.log(lections);
 
     setCurrentList(sorted);
     setZone("Избранные");
@@ -49,7 +47,7 @@ const App = () => {
         gridTemplateRows: "224px 14px auto 32px",
       }}
     >
-      <img
+      {/* <img
         style={{
           padding: "8px",
           marginLeft: "auto",
@@ -60,7 +58,28 @@ const App = () => {
           boxSizing: "border-box",
         }}
         src="logo.png"
-      />
+      /> */}
+      <div
+        style={{
+          padding: "8px",
+          marginLeft: "auto",
+          marginRight: "auto",
+          marginTop: "16px",
+          marginBottom: "8px",
+          color: "white",
+          textAlign: "center",
+        }}
+      >
+        <h1
+          style={{
+            fontSize: "4rem",
+          }}
+        >
+          ProIT Fest
+        </h1>
+        <h2>Расписание</h2>
+        <h3>11 июля 2026</h3>
+      </div>
       <ButtonGroup
         style={{
           paddingRight: "16px",
@@ -77,13 +96,13 @@ const App = () => {
         >
           Суббота
         </Button>
-        <Button
+        {/* <Button
           style={{ backgroundColor: day === "sun" ? "snow" : "lightgray" }}
           active={day === "sun"}
           onClick={() => setDay("sun")}
         >
           Воскресенье
-        </Button>
+        </Button> */}
       </ButtonGroup>
       <SectionList
         schedule={mode[day]}
@@ -114,7 +133,7 @@ const App = () => {
         icon={<StarIcon color="coral" />}
         onClick={handelLectionListClick}
       />
-      <IconButton
+      {/* <IconButton
         style={{
           position: "fixed",
           left: "8px",
@@ -123,7 +142,7 @@ const App = () => {
         }}
         icon={<MapIcon color="DodgerBlue" />}
         onClick={handelMapClick}
-      />
+      /> */}
       {open && (
         <LectionList
           zone={zone}
