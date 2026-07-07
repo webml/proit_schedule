@@ -1,4 +1,4 @@
-const CACHE_NAME = "proit-schedule-v1";
+const CACHE = "proit-schedule-v1";
 
 const BASE = self.location.pathname.startsWith("/proit_schedule/")
   ? "/proit_schedule"
