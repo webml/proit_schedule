@@ -4,6 +4,8 @@
 
 /*! core-js/modules/esnext.async-iterator.map.js */
 
+/*! ./App */
+
 /*! react/jsx-runtime */
 
 /*! react/jsx-runtime */
@@ -28,19 +30,15 @@
 
 /*! core-js/modules/esnext.map.includes.js */
 
-/*! react */
-
-/*! react/jsx-runtime */
-
 /*! core-js/modules/esnext.map.find.js */
 
 /*! core-js/modules/esnext.map.update.js */
 
-/*! ./App */
-
 /*! core-js/modules/esnext.json.parse.js */
 
 /*! core-js/modules/esnext.map.merge.js */
+
+/*! react-dom/client */
 
 /*! core-js/modules/esnext.map.filter.js */
 
@@ -78,8 +76,6 @@
 
 /*! ./components/LectionList */
 
-/*! react-dom/client */
-
 /*! core-js/modules/esnext.map.reduce.js */
 
 /*! core-js/modules/esnext.map.map-keys.js */
@@ -106,4 +102,8 @@
 
 /*! react/jsx-runtime */
 
+/*! react */
+
 /*! rsuite */
+
+/*! react/jsx-runtime */
