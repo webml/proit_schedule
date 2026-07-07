@@ -1,14 +1,16 @@
+/*! core-js/modules/esnext.iterator.map.js */
+
 /*! react/jsx-runtime */
+
+/*! core-js/modules/esnext.async-iterator.map.js */
 
 /*! react/jsx-runtime */
 
 /*! react/jsx-runtime */
 
-/*! react */
+/*! core-js/modules/esnext.async-iterator.map.js */
 
 /*! rsuite/dist/rsuite.min.css */
-
-/*! react/jsx-runtime */
 
 /*! ./styles.css */
 
@@ -16,11 +18,7 @@
 
 /*! core-js/modules/esnext.iterator.map.js */
 
-/*! ./App */
-
 /*! @rsuite/icons/legacy/Star */
-
-/*! react */
 
 /*! ./components/Map */
 
@@ -28,29 +26,33 @@
 
 /*! core-js/modules/esnext.async-iterator.map.js */
 
-/*! rsuite */
-
-/*! @rsuite/icons/legacy/Star */
-
 /*! core-js/modules/esnext.map.includes.js */
 
-/*! rsuite */
+/*! react */
+
+/*! react/jsx-runtime */
 
 /*! core-js/modules/esnext.map.find.js */
 
 /*! core-js/modules/esnext.map.update.js */
 
+/*! ./App */
+
 /*! core-js/modules/esnext.json.parse.js */
 
 /*! core-js/modules/esnext.map.merge.js */
-
-/*! core-js/modules/es.array.push.js */
 
 /*! core-js/modules/esnext.map.filter.js */
 
 /*! core-js/modules/esnext.map.find-key.js */
 
-/*! react-dom/client */
+/*! react */
+
+/*! rsuite */
+
+/*! @rsuite/icons/legacy/Star */
+
+/*! rsuite */
 
 /*! core-js/modules/esnext.map.key-of.js */
 
@@ -64,9 +66,7 @@
 
 /*! @rsuite/icons/legacy/Star */
 
-/*! core-js/modules/esnext.json.parse.js */
-
-/*! ./LectionCard */
+/*! core-js/modules/es.array.push.js */
 
 /*! rsuite */
 
@@ -76,19 +76,11 @@
 
 /*! core-js/modules/esnext.map.map-values.js */
 
-/*! react/jsx-runtime */
-
 /*! ./components/LectionList */
 
-/*! core-js/modules/es.array.includes.js */
-
-/*! core-js/modules/esnext.iterator.map.js */
-
-/*! react/jsx-runtime */
+/*! react-dom/client */
 
 /*! core-js/modules/esnext.map.reduce.js */
-
-/*! core-js/modules/esnext.iterator.map.js */
 
 /*! core-js/modules/esnext.map.map-keys.js */
 
@@ -98,12 +90,20 @@
 
 /*! @rsuite/icons/legacy/MapSigns */
 
-/*! core-js/modules/esnext.async-iterator.map.js */
+/*! core-js/modules/esnext.json.parse.js */
 
-/*! core-js/modules/esnext.async-iterator.map.js */
+/*! ./LectionCard */
 
 /*! ./components/SectionList */
 
+/*! react/jsx-runtime */
+
 /*! core-js/modules/esnext.map.every.js */
+
+/*! core-js/modules/es.array.includes.js */
+
+/*! core-js/modules/esnext.iterator.map.js */
+
+/*! react/jsx-runtime */
 
 /*! rsuite */
